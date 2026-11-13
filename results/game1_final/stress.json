@@ -1,0 +1,445 @@
+{
+  "scenario_count": 510,
+  "candidates": {
+    "teammate": [
+      2,
+      16,
+      1,
+      37,
+      44
+    ],
+    "original": [
+      1,
+      14,
+      1,
+      37,
+      47
+    ],
+    "previous_broad": [
+      2,
+      2,
+      3,
+      39,
+      54
+    ],
+    "previous_search": [
+      2,
+      16,
+      10,
+      12,
+      60
+    ],
+    "incumbent": [
+      8,
+      9,
+      10,
+      11,
+      62
+    ],
+    "balanced/mean": [
+      3,
+      3,
+      13,
+      13,
+      68
+    ],
+    "balanced/tail": [
+      0,
+      8,
+      13,
+      11,
+      68
+    ],
+    "balanced/maximin": [
+      0,
+      8,
+      12,
+      11,
+      69
+    ],
+    "balanced/minimax_regret": [
+      3,
+      9,
+      14,
+      6,
+      68
+    ],
+    "concentration_likely/tail": [
+      3,
+      3,
+      13,
+      12,
+      69
+    ],
+    "calculation_likely/mean": [
+      3,
+      2,
+      14,
+      13,
+      68
+    ],
+    "calculation_likely/tail": [
+      2,
+      3,
+      14,
+      12,
+      69
+    ],
+    "original_likely/mean": [
+      4,
+      3,
+      13,
+      13,
+      67
+    ],
+    "T_free_likely/mean": [
+      2,
+      3,
+      14,
+      13,
+      68
+    ],
+    "T_free_likely/tail": [
+      0,
+      6,
+      13,
+      13,
+      68
+    ],
+    "avoid_fifth_likely/mean": [
+      4,
+      3,
+      14,
+      12,
+      67
+    ],
+    "avoid_fifth_likely/guard_0.10": [
+      3,
+      8,
+      13,
+      11,
+      65
+    ]
+  },
+  "priors": {
+    "audit": {
+      "metrics": {
+        "teammate": {
+          "weighted_mean": 6.471455984836363,
+          "minimum": 5.390539518312918,
+          "lower_tail_mean": 5.971225425347881,
+          "maximum_regret": 4.365212230754134,
+          "mean_regret": 2.9544386807354934
+        },
+        "original": {
+          "weighted_mean": 6.496728438109095,
+          "minimum": 5.402141533117786,
+          "lower_tail_mean": 5.9826746234989425,
+          "maximum_regret": 4.449899987064505,
+          "mean_regret": 2.929166227462765
+        },
+        "previous_broad": {
+          "weighted_mean": 7.360504200087446,
+          "minimum": 6.404397947591146,
+          "lower_tail_mean": 6.812994993762668,
+          "maximum_regret": 3.4534206264900495,
+          "mean_regret": 2.065390465484411
+        },
+        "previous_search": {
+          "weighted_mean": 8.388593562028067,
+          "minimum": 7.558176894531252,
+          "lower_tail_mean": 7.786471680328156,
+          "maximum_regret": 2.2892383902994773,
+          "mean_regret": 1.0373011035437916
+        },
+        "incumbent": {
+          "weighted_mean": 8.565416488013172,
+          "minimum": 7.486642740885419,
+          "lower_tail_mean": 7.90440652473003,
+          "maximum_regret": 2.252033533528648,
+          "mean_regret": 0.8604781775586823
+        },
+        "balanced/mean": {
+          "weighted_mean": 8.864893622607479,
+          "minimum": 7.7066144980904925,
+          "lower_tail_mean": 8.278982950723423,
+          "maximum_regret": 1.5419946826171884,
+          "mean_regret": 0.5610010429643788
+        },
+        "balanced/tail": {
+          "weighted_mean": 8.654077092677696,
+          "minimum": 7.724116927083335,
+          "lower_tail_mean": 8.043619113514241,
+          "maximum_regret": 1.6659022656249984,
+          "mean_regret": 0.7718175728941601
+        },
+        "balanced/maximin": {
+          "weighted_mean": 8.629855480124082,
+          "minimum": 7.6173091145833345,
+          "lower_tail_mean": 8.137035698417735,
+          "maximum_regret": 1.6932678385416633,
+          "mean_regret": 0.7960391854477753
+        },
+        "balanced/minimax_regret": {
+          "weighted_mean": 8.490553397002392,
+          "minimum": 7.479021363932292,
+          "lower_tail_mean": 7.967284768623341,
+          "maximum_regret": 1.7458357200084693,
+          "mean_regret": 0.9353412685694643
+        },
+        "concentration_likely/tail": {
+          "weighted_mean": 8.817561759058153,
+          "minimum": 7.670731880902991,
+          "lower_tail_mean": 8.306976284330906,
+          "maximum_regret": 1.5752945947265626,
+          "mean_regret": 0.6083329065137046
+        },
+        "calculation_likely/mean": {
+          "weighted_mean": 8.91997580953303,
+          "minimum": 7.744592232465492,
+          "lower_tail_mean": 8.340568933824233,
+          "maximum_regret": 1.4597767779511743,
+          "mean_regret": 0.5059188560388272
+        },
+        "calculation_likely/tail": {
+          "weighted_mean": 8.881805146420096,
+          "minimum": 7.7740276918376985,
+          "lower_tail_mean": 8.392933565264087,
+          "maximum_regret": 1.4656118914956373,
+          "mean_regret": 0.544089519151761
+        },
+        "original_likely/mean": {
+          "weighted_mean": 8.86676027852764,
+          "minimum": 7.61143038457208,
+          "lower_tail_mean": 8.22960562437264,
+          "maximum_regret": 1.8033484244791644,
+          "mean_regret": 0.5591343870442178
+        },
+        "T_free_likely/mean": {
+          "weighted_mean": 8.92913700996942,
+          "minimum": 7.8099103090252,
+          "lower_tail_mean": 8.371132677355696,
+          "maximum_regret": 1.3999859149331355,
+          "mean_regret": 0.4967576556024351
+        },
+        "T_free_likely/tail": {
+          "weighted_mean": 8.830409413449754,
+          "minimum": 7.696193098958336,
+          "lower_tail_mean": 8.260263912776397,
+          "maximum_regret": 1.5479908854166649,
+          "mean_regret": 0.5954852521221012
+        },
+        "avoid_fifth_likely/mean": {
+          "weighted_mean": 8.8591620267277,
+          "minimum": 7.66826085332208,
+          "lower_tail_mean": 8.226833429431744,
+          "maximum_regret": 1.7986428499348976,
+          "mean_regret": 0.5667326388441564
+        },
+        "avoid_fifth_likely/guard_0.10": {
+          "weighted_mean": 8.747745011777209,
+          "minimum": 7.869319771527991,
+          "lower_tail_mean": 8.107967417661715,
+          "maximum_regret": 1.9306416520182292,
+          "mean_regret": 0.6781496537946481
+        }
+      },
+      "choices_among_frozen": {
+        "mean": "T_free_likely/mean",
+        "maximin": "avoid_fifth_likely/guard_0.10",
+        "tail": "calculation_likely/tail",
+        "minimax_regret": "T_free_likely/mean",
+        "mean_with_tail_guard": "T_free_likely/mean"
+      }
+    }
+  },
+  "weakest_scenarios": {
+    "teammate": {
+      "minimum": "calculation/teammate/direct_counter0.15",
+      "maximum_regret": "calculation/previous_broad/copy0.15",
+      "regret_reference": [
+        3,
+        3,
+        17,
+        14,
+        63
+      ]
+    },
+    "original": {
+      "minimum": "calculation/original/direct_counter0.15",
+      "maximum_regret": "calculation/previous_search/copy0.15",
+      "regret_reference": [
+        7,
+        1,
+        15,
+        14,
+        63
+      ]
+    },
+    "previous_broad": {
+      "minimum": "T_free/previous_broad/direct_counter0.15",
+      "maximum_regret": "calculation/incumbent/copy0.15",
+      "regret_reference": [
+        0,
+        10,
+        14,
+        13,
+        63
+      ]
+    },
+    "previous_search": {
+      "minimum": "T_free/previous_search/direct_counter0.15",
+      "maximum_regret": "T_free/original_likely/mean/copy0.15",
+      "regret_reference": [
+        0,
+        4,
+        14,
+        14,
+        68
+      ]
+    },
+    "incumbent": {
+      "minimum": "T_free/incumbent/direct_counter0.15",
+      "maximum_regret": "T_free/incumbent/anticipate0.15",
+      "regret_reference": [
+        2,
+        1,
+        16,
+        15,
+        66
+      ]
+    },
+    "balanced/mean": {
+      "minimum": "avoid_fifth/balanced/mean/direct_counter0.15",
+      "maximum_regret": "T_free/balanced/mean/direct_counter0.15",
+      "regret_reference": [
+        0,
+        0,
+        15,
+        15,
+        70
+      ]
+    },
+    "balanced/tail": {
+      "minimum": "avoid_fifth/balanced/tail/direct_counter0.15",
+      "maximum_regret": "original/calculation_likely/tail/copy0.15",
+      "regret_reference": [
+        7,
+        4,
+        15,
+        13,
+        61
+      ]
+    },
+    "balanced/maximin": {
+      "minimum": "avoid_fifth/balanced/maximin/direct_counter0.15",
+      "maximum_regret": "original/calculation_likely/tail/direct_counter0.15",
+      "regret_reference": [
+        7,
+        2,
+        16,
+        14,
+        61
+      ]
+    },
+    "balanced/minimax_regret": {
+      "minimum": "T_free/balanced/minimax_regret/direct_counter0.15",
+      "maximum_regret": "calculation/balanced/minimax_regret/direct_counter0.15",
+      "regret_reference": [
+        0,
+        1,
+        17,
+        12,
+        70
+      ]
+    },
+    "concentration_likely/tail": {
+      "minimum": "avoid_fifth/concentration_likely/tail/direct_counter0.15",
+      "maximum_regret": "T_free/concentration_likely/tail/direct_counter0.15",
+      "regret_reference": [
+        0,
+        0,
+        15,
+        14,
+        71
+      ]
+    },
+    "calculation_likely/mean": {
+      "minimum": "avoid_fifth/calculation_likely/mean/direct_counter0.15",
+      "maximum_regret": "avoid_fifth/calculation_likely/mean/direct_counter0.15",
+      "regret_reference": [
+        7,
+        3,
+        16,
+        15,
+        59
+      ]
+    },
+    "calculation_likely/tail": {
+      "minimum": "avoid_fifth/calculation_likely/tail/direct_counter0.15",
+      "maximum_regret": "avoid_fifth/calculation_likely/tail/direct_counter0.15",
+      "regret_reference": [
+        8,
+        3,
+        16,
+        14,
+        59
+      ]
+    },
+    "original_likely/mean": {
+      "minimum": "avoid_fifth/original_likely/mean/direct_counter0.15",
+      "maximum_regret": "T_free/original_likely/mean/direct_counter0.15",
+      "regret_reference": [
+        1,
+        0,
+        15,
+        15,
+        69
+      ]
+    },
+    "T_free_likely/mean": {
+      "minimum": "avoid_fifth/T_free_likely/mean/direct_counter0.15",
+      "maximum_regret": "avoid_fifth/T_free_likely/mean/direct_counter0.15",
+      "regret_reference": [
+        8,
+        2,
+        16,
+        15,
+        59
+      ]
+    },
+    "T_free_likely/tail": {
+      "minimum": "avoid_fifth/T_free_likely/mean/direct_counter0.15",
+      "maximum_regret": "original/T_free_likely/mean/direct_counter0.15",
+      "regret_reference": [
+        7,
+        2,
+        16,
+        15,
+        60
+      ]
+    },
+    "avoid_fifth_likely/mean": {
+      "minimum": "avoid_fifth/avoid_fifth_likely/mean/direct_counter0.15",
+      "maximum_regret": "T_free/avoid_fifth_likely/mean/direct_counter0.15",
+      "regret_reference": [
+        1,
+        0,
+        16,
+        14,
+        69
+      ]
+    },
+    "avoid_fifth_likely/guard_0.10": {
+      "minimum": "avoid_fifth/avoid_fifth_likely/mean/copy0.15",
+      "maximum_regret": "T_free/avoid_fifth_likely/mean/copy0.15",
+      "regret_reference": [
+        0,
+        4,
+        15,
+        13,
+        68
+      ]
+    }
+  }
+}

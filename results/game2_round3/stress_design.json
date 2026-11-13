@@ -1,0 +1,284 @@
+{
+  "cohort/concentration/F40": {
+    "base": "concentration/low/h0.01/shallow",
+    "extra_cohort": "F",
+    "extra_share": 0.4
+  },
+  "cohort/concentration/Z40": {
+    "base": "concentration/low/h0.01/shallow",
+    "extra_cohort": "Z",
+    "extra_share": 0.4
+  },
+  "strategy/concentration/mean/copy15": {
+    "base": "concentration/low/h0.01/shallow",
+    "target": "mean",
+    "extra_share": 0.15,
+    "kind": "copy",
+    "response": {
+      "screen_candidates": 24840,
+      "refined_candidates": 376,
+      "screen_groups": 1024,
+      "check_groups": 8192,
+      "best_allocation": [
+        1,
+        15,
+        0,
+        72,
+        12
+      ],
+      "estimated_best_score": 6.48858642578125,
+      "response_support": 2
+    }
+  },
+  "strategy/concentration/mean/anticipate15": {
+    "base": "concentration/low/h0.01/shallow",
+    "target": "mean",
+    "extra_share": 0.15,
+    "kind": "anticipate",
+    "response": {
+      "screen_candidates": 24840,
+      "refined_candidates": 376,
+      "screen_groups": 1024,
+      "check_groups": 8192,
+      "best_allocation": [
+        1,
+        15,
+        0,
+        72,
+        12
+      ],
+      "estimated_best_score": 6.48858642578125,
+      "response_support": 2
+    }
+  },
+  "strategy/concentration/minimax_regret/copy15": {
+    "base": "concentration/low/h0.01/shallow",
+    "target": "minimax_regret",
+    "extra_share": 0.15,
+    "kind": "copy",
+    "response": {
+      "screen_candidates": 24840,
+      "refined_candidates": 275,
+      "screen_groups": 1024,
+      "check_groups": 8192,
+      "best_allocation": [
+        0,
+        17,
+        0,
+        73,
+        10
+      ],
+      "estimated_best_score": 6.47308349609375,
+      "response_support": 3
+    }
+  },
+  "strategy/concentration/minimax_regret/anticipate15": {
+    "base": "concentration/low/h0.01/shallow",
+    "target": "minimax_regret",
+    "extra_share": 0.15,
+    "kind": "anticipate",
+    "response": {
+      "screen_candidates": 24840,
+      "refined_candidates": 275,
+      "screen_groups": 1024,
+      "check_groups": 8192,
+      "best_allocation": [
+        0,
+        17,
+        0,
+        73,
+        10
+      ],
+      "estimated_best_score": 6.47308349609375,
+      "response_support": 3
+    }
+  },
+  "cohort/first_three/F40": {
+    "base": "first_three/low/h0.01/shallow",
+    "extra_cohort": "F",
+    "extra_share": 0.4
+  },
+  "cohort/first_three/Z40": {
+    "base": "first_three/low/h0.01/shallow",
+    "extra_cohort": "Z",
+    "extra_share": 0.4
+  },
+  "strategy/first_three/mean/copy15": {
+    "base": "first_three/low/h0.01/shallow",
+    "target": "mean",
+    "extra_share": 0.15,
+    "kind": "copy",
+    "response": {
+      "screen_candidates": 24840,
+      "refined_candidates": 344,
+      "screen_groups": 1024,
+      "check_groups": 8192,
+      "best_allocation": [
+        0,
+        15,
+        9,
+        6,
+        70
+      ],
+      "estimated_best_score": 6.43023681640625,
+      "response_support": 6
+    }
+  },
+  "strategy/first_three/mean/anticipate15": {
+    "base": "first_three/low/h0.01/shallow",
+    "target": "mean",
+    "extra_share": 0.15,
+    "kind": "anticipate",
+    "response": {
+      "screen_candidates": 24840,
+      "refined_candidates": 344,
+      "screen_groups": 1024,
+      "check_groups": 8192,
+      "best_allocation": [
+        0,
+        15,
+        9,
+        6,
+        70
+      ],
+      "estimated_best_score": 6.43023681640625,
+      "response_support": 6
+    }
+  },
+  "strategy/first_three/minimax_regret/copy15": {
+    "base": "first_three/low/h0.01/shallow",
+    "target": "minimax_regret",
+    "extra_share": 0.15,
+    "kind": "copy",
+    "response": {
+      "screen_candidates": 24840,
+      "refined_candidates": 304,
+      "screen_groups": 1024,
+      "check_groups": 8192,
+      "best_allocation": [
+        0,
+        15,
+        9,
+        6,
+        70
+      ],
+      "estimated_best_score": 6.3160400390625,
+      "response_support": 12
+    }
+  },
+  "strategy/first_three/minimax_regret/anticipate15": {
+    "base": "first_three/low/h0.01/shallow",
+    "target": "minimax_regret",
+    "extra_share": 0.15,
+    "kind": "anticipate",
+    "response": {
+      "screen_candidates": 24840,
+      "refined_candidates": 304,
+      "screen_groups": 1024,
+      "check_groups": 8192,
+      "best_allocation": [
+        0,
+        15,
+        9,
+        6,
+        70
+      ],
+      "estimated_best_score": 6.3160400390625,
+      "response_support": 12
+    }
+  },
+  "cohort/fifth/F40": {
+    "base": "fifth/low/h0.01/shallow",
+    "extra_cohort": "F",
+    "extra_share": 0.4
+  },
+  "cohort/fifth/Z40": {
+    "base": "fifth/low/h0.01/shallow",
+    "extra_cohort": "Z",
+    "extra_share": 0.4
+  },
+  "strategy/fifth/mean/copy15": {
+    "base": "fifth/low/h0.01/shallow",
+    "target": "mean",
+    "extra_share": 0.15,
+    "kind": "copy",
+    "response": {
+      "screen_candidates": 24840,
+      "refined_candidates": 422,
+      "screen_groups": 1024,
+      "check_groups": 8192,
+      "best_allocation": [
+        5,
+        15,
+        62,
+        6,
+        12
+      ],
+      "estimated_best_score": 6.12109375,
+      "response_support": 8
+    }
+  },
+  "strategy/fifth/mean/anticipate15": {
+    "base": "fifth/low/h0.01/shallow",
+    "target": "mean",
+    "extra_share": 0.15,
+    "kind": "anticipate",
+    "response": {
+      "screen_candidates": 24840,
+      "refined_candidates": 422,
+      "screen_groups": 1024,
+      "check_groups": 8192,
+      "best_allocation": [
+        5,
+        15,
+        62,
+        6,
+        12
+      ],
+      "estimated_best_score": 6.12109375,
+      "response_support": 8
+    }
+  },
+  "strategy/fifth/minimax_regret/copy15": {
+    "base": "fifth/low/h0.01/shallow",
+    "target": "minimax_regret",
+    "extra_share": 0.15,
+    "kind": "copy",
+    "response": {
+      "screen_candidates": 24840,
+      "refined_candidates": 331,
+      "screen_groups": 1024,
+      "check_groups": 8192,
+      "best_allocation": [
+        0,
+        20,
+        64,
+        6,
+        10
+      ],
+      "estimated_best_score": 6.09039306640625,
+      "response_support": 5
+    }
+  },
+  "strategy/fifth/minimax_regret/anticipate15": {
+    "base": "fifth/low/h0.01/shallow",
+    "target": "minimax_regret",
+    "extra_share": 0.15,
+    "kind": "anticipate",
+    "response": {
+      "screen_candidates": 24840,
+      "refined_candidates": 331,
+      "screen_groups": 1024,
+      "check_groups": 8192,
+      "best_allocation": [
+        0,
+        20,
+        64,
+        6,
+        10
+      ],
+      "estimated_best_score": 6.09039306640625,
+      "response_support": 5
+    }
+  }
+}

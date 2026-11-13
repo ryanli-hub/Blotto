@@ -1,0 +1,30 @@
+{
+  "best_response": [
+    8,
+    17,
+    6,
+    33,
+    36
+  ],
+  "best_response_score": 7.500000000000046,
+  "exploitability": 4.618527782440651e-14,
+  "scores": {
+    "teammate": 7.499999999999985,
+    "original": 7.4999999999999885,
+    "previous_broad": 7.500000000000002,
+    "previous_search": 7.500000000000006,
+    "incumbent": 7.500000000000017,
+    "balanced/mean": 7.499999999999985,
+    "balanced/tail": 7.499999999999995,
+    "balanced/maximin": 7.449105376916044,
+    "balanced/minimax_regret": 7.499999999999988,
+    "concentration_likely/tail": 7.4491053769160365,
+    "calculation_likely/mean": 7.499999999999984,
+    "calculation_likely/tail": 7.449105376916037,
+    "original_likely/mean": 7.499999999999997,
+    "T_free_likely/mean": 7.499999999999986,
+    "T_free_likely/tail": 7.5,
+    "avoid_fifth_likely/mean": 7.5,
+    "avoid_fifth_likely/guard_0.10": 7.499999999999988
+  }
+}

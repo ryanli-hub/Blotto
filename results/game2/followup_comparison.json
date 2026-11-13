@@ -1,0 +1,532 @@
+{
+  "candidate_order": [
+    "teammate",
+    "user",
+    "game1",
+    "previous_compromise",
+    "all_fifth",
+    "castles_4_5",
+    "new_robust",
+    "central_specialist"
+  ],
+  "summary": {
+    "teammate": {
+      "allocation": [
+        0,
+        1,
+        36,
+        0,
+        63
+      ],
+      "maximum_estimated_regret": 4.78874375,
+      "worst_regret_scenario": "followup_all_fifth/fifth_avoided/same_recommendation",
+      "worst_gap_95_halfwidth": 0.01704591890013209,
+      "minimum_score": 2.09301125,
+      "maximum_score": 3.8475875,
+      "mean_across_scenarios": 2.748982291666667
+    },
+    "user": {
+      "allocation": [
+        0,
+        0,
+        49,
+        51,
+        0
+      ],
+      "maximum_estimated_regret": 5.1307525,
+      "worst_regret_scenario": "followup_all_fifth/balanced/anticipators",
+      "worst_gap_95_halfwidth": 0.01675340166251279,
+      "minimum_score": 1.7671825,
+      "maximum_score": 4.1667125,
+      "mean_across_scenarios": 2.8291858333333337
+    },
+    "game1": {
+      "allocation": [
+        8,
+        9,
+        10,
+        11,
+        62
+      ],
+      "maximum_estimated_regret": 3.735845,
+      "worst_regret_scenario": "followup_all_fifth/fifth_avoided/same_recommendation",
+      "worst_gap_95_halfwidth": 0.018418820621651465,
+      "minimum_score": 3.3336875,
+      "maximum_score": 4.0937625,
+      "mean_across_scenarios": 3.6081175
+    },
+    "previous_compromise": {
+      "allocation": [
+        6,
+        37,
+        50,
+        7,
+        0
+      ],
+      "maximum_estimated_regret": 3.44950375,
+      "worst_regret_scenario": "followup_all_fifth/balanced/anticipators",
+      "worst_gap_95_halfwidth": 0.021802360084398804,
+      "minimum_score": 3.44843125,
+      "maximum_score": 5.99291,
+      "mean_across_scenarios": 4.759287291666667
+    },
+    "all_fifth": {
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        100
+      ],
+      "maximum_estimated_regret": 3.22486125,
+      "worst_regret_scenario": "followup_all_fifth/fifth_avoided/same_recommendation",
+      "worst_gap_95_halfwidth": 0.01707695091632224,
+      "minimum_score": 3.928335,
+      "maximum_score": 5.3896525,
+      "mean_across_scenarios": 4.607389166666667
+    },
+    "castles_4_5": {
+      "allocation": [
+        0,
+        0,
+        0,
+        49,
+        51
+      ],
+      "maximum_estimated_regret": 5.317915,
+      "worst_regret_scenario": "followup_all_fifth/fifth_avoided/same_recommendation",
+      "worst_gap_95_halfwidth": 0.017195184009061015,
+      "minimum_score": 1.8533175,
+      "maximum_score": 3.491105,
+      "mean_across_scenarios": 2.3953170833333335
+    },
+    "new_robust": {
+      "allocation": [
+        0,
+        5,
+        0,
+        5,
+        90
+      ],
+      "maximum_estimated_regret": 3.27089,
+      "worst_regret_scenario": "followup_all_fifth/fifth_avoided/same_recommendation",
+      "worst_gap_95_halfwidth": 0.019175037626322486,
+      "minimum_score": 3.79035,
+      "maximum_score": 5.6891225,
+      "mean_across_scenarios": 4.871382083333334
+    },
+    "central_specialist": {
+      "allocation": [
+        13,
+        0,
+        0,
+        0,
+        87
+      ],
+      "maximum_estimated_regret": 4.649185,
+      "worst_regret_scenario": "followup_all_fifth/fifth_avoided/same_recommendation",
+      "worst_gap_95_halfwidth": 0.019882926898006647,
+      "minimum_score": 2.5220475,
+      "maximum_score": 6.446605,
+      "mean_across_scenarios": 4.022936458333334
+    }
+  },
+  "scenarios": {
+    "followup_all_fifth/balanced/same_recommendation": {
+      "scores": [
+        2.79059625,
+        2.54161625,
+        3.3516675,
+        4.79577,
+        3.928335,
+        2.3283025,
+        3.79035,
+        4.0191275
+      ],
+      "score_standard_errors": [
+        0.006786484800086816,
+        0.005849010914746449,
+        0.007536363684238352,
+        0.007725050900645063,
+        0.005387940542395716,
+        0.00638874969560415,
+        0.0071999691725229235,
+        0.008161466473091322
+      ],
+      "reference": [
+        13,
+        31,
+        56,
+        0,
+        0
+      ],
+      "reference_score": 6.87379,
+      "score_gaps": [
+        4.08319375,
+        4.33217375,
+        3.5221225,
+        2.07802,
+        2.945455,
+        4.5454875,
+        3.08344,
+        2.8546625
+      ],
+      "gap_standard_errors": [
+        0.010056166389072772,
+        0.008349730536164316,
+        0.01063652492138672,
+        0.008049979870091572,
+        0.009127789480349499,
+        0.010100470077387373,
+        0.010528453379943934,
+        0.010942813396530799
+      ],
+      "groups": 200000,
+      "reference_search": {
+        "screen_candidates": 30136,
+        "refined_candidates": 302,
+        "screen_groups": 2048,
+        "check_groups": 8192,
+        "best_allocation": [
+          13,
+          31,
+          56,
+          0,
+          0
+        ],
+        "estimated_best_score": 6.87060546875,
+        "response_support": 1
+      }
+    },
+    "followup_all_fifth/balanced/anticipators": {
+      "scores": [
+        3.8475875,
+        1.7671825,
+        4.0937625,
+        3.44843125,
+        5.3896525,
+        3.491105,
+        5.5985875,
+        6.446605
+      ],
+      "score_standard_errors": [
+        0.0071973431666109994,
+        0.004388780239477559,
+        0.007493755233513185,
+        0.00758933332859475,
+        0.004530659558011273,
+        0.007226971394744323,
+        0.00559134510560019,
+        0.005472592586354577
+      ],
+      "reference": [
+        15,
+        0,
+        0,
+        0,
+        85
+      ],
+      "reference_score": 6.897935,
+      "score_gaps": [
+        3.0503475,
+        5.1307525,
+        2.8041725,
+        3.44950375,
+        1.5082825,
+        3.40683,
+        1.2993475,
+        0.45133
+      ],
+      "gap_standard_errors": [
+        0.007514176299531842,
+        0.0085476539094453,
+        0.008243819139451615,
+        0.011123653104285104,
+        0.006596614156335081,
+        0.007889975951427392,
+        0.006567887963948554,
+        0.004124097318977025
+      ],
+      "groups": 200000,
+      "reference_search": {
+        "screen_candidates": 30136,
+        "refined_candidates": 182,
+        "screen_groups": 2048,
+        "check_groups": 8192,
+        "best_allocation": [
+          15,
+          0,
+          0,
+          0,
+          85
+        ],
+        "estimated_best_score": 6.93084716796875,
+        "response_support": 1
+      }
+    },
+    "followup_all_fifth/fifth_crowded/same_recommendation": {
+      "scores": [
+        2.09301125,
+        4.1667125,
+        3.793875,
+        5.58998,
+        4.05714875,
+        2.1282875,
+        4.8051125,
+        2.86197375
+      ],
+      "score_standard_errors": [
+        0.005507237079304688,
+        0.007458154116940257,
+        0.007907498028106003,
+        0.007434139615998555,
+        0.0049854211518674625,
+        0.005343305212251281,
+        0.007540327237222068,
+        0.006948083312206558
+      ],
+      "reference": [
+        13,
+        6,
+        5,
+        76,
+        0
+      ],
+      "reference_score": 6.8368525,
+      "score_gaps": [
+        4.74384125,
+        2.67014,
+        3.0429775,
+        1.2468725,
+        2.77970375,
+        4.708565,
+        2.03174,
+        3.97487875
+      ],
+      "gap_standard_errors": [
+        0.007468293825470146,
+        0.007259812785217563,
+        0.008019676894897715,
+        0.007314961116574676,
+        0.00770308901912615,
+        0.007451923802597339,
+        0.008450797739971785,
+        0.009899665648060642
+      ],
+      "groups": 200000,
+      "reference_search": {
+        "screen_candidates": 30136,
+        "refined_candidates": 380,
+        "screen_groups": 2048,
+        "check_groups": 8192,
+        "best_allocation": [
+          13,
+          6,
+          5,
+          76,
+          0
+        ],
+        "estimated_best_score": 6.8905029296875,
+        "response_support": 1
+      }
+    },
+    "followup_all_fifth/fifth_crowded/anticipators": {
+      "scores": [
+        2.61867875,
+        2.72555,
+        3.640325,
+        4.426915,
+        5.14751125,
+        2.001145,
+        5.6891225,
+        4.423955
+      ],
+      "score_standard_errors": [
+        0.006259224630372124,
+        0.006015384550197638,
+        0.007678321057037552,
+        0.0066201453568254616,
+        0.003837286536988998,
+        0.005680408636716763,
+        0.005365087470935268,
+        0.006988082396577255
+      ],
+      "reference": [
+        15,
+        14,
+        57,
+        8,
+        6
+      ],
+      "reference_score": 6.538155,
+      "score_gaps": [
+        3.91947625,
+        3.812605,
+        2.89783,
+        2.11124,
+        1.39064375,
+        4.53701,
+        0.8490325,
+        2.1142
+      ],
+      "gap_standard_errors": [
+        0.009349624632483036,
+        0.008190828584046883,
+        0.008822374007426552,
+        0.007252850565895223,
+        0.007949428939083108,
+        0.008466560530270605,
+        0.007882890397533373,
+        0.010417658089177256
+      ],
+      "groups": 200000,
+      "reference_search": {
+        "screen_candidates": 30136,
+        "refined_candidates": 422,
+        "screen_groups": 2048,
+        "check_groups": 8192,
+        "best_allocation": [
+          15,
+          14,
+          57,
+          8,
+          6
+        ],
+        "estimated_best_score": 6.5048828125,
+        "response_support": 1
+      }
+    },
+    "followup_all_fifth/fifth_avoided/same_recommendation": {
+      "scores": [
+        2.38248875,
+        3.50202375,
+        3.4353875,
+        5.99291,
+        3.94637125,
+        1.8533175,
+        3.9003425,
+        2.5220475
+      ],
+      "score_standard_errors": [
+        0.006033323480725885,
+        0.006844843157010167,
+        0.007935859894402122,
+        0.006565630335086531,
+        0.005197641008258212,
+        0.005719350140164429,
+        0.0072422940369459825,
+        0.0071720243291823575
+      ],
+      "reference": [
+        15,
+        27,
+        52,
+        3,
+        3
+      ],
+      "reference_score": 7.1712325,
+      "score_gaps": [
+        4.78874375,
+        3.66920875,
+        3.735845,
+        1.1783225,
+        3.22486125,
+        5.317915,
+        3.27089,
+        4.649185
+      ],
+      "gap_standard_errors": [
+        0.008696897398026577,
+        0.008881577518617585,
+        0.009397357460026259,
+        0.0060055842359573,
+        0.008712730059348082,
+        0.008773053065847457,
+        0.009783182462409432,
+        0.010144350458166657
+      ],
+      "groups": 200000,
+      "reference_search": {
+        "screen_candidates": 30136,
+        "refined_candidates": 374,
+        "screen_groups": 2048,
+        "check_groups": 8192,
+        "best_allocation": [
+          15,
+          27,
+          52,
+          3,
+          3
+        ],
+        "estimated_best_score": 7.1927490234375,
+        "response_support": 1
+      }
+    },
+    "followup_all_fifth/fifth_avoided/anticipators": {
+      "scores": [
+        2.76153125,
+        2.27203,
+        3.3336875,
+        4.3017175,
+        5.17531625,
+        2.569745,
+        5.4447775,
+        3.86391
+      ],
+      "score_standard_errors": [
+        0.006847621113455516,
+        0.005316466669188214,
+        0.007612773593331648,
+        0.007852040962304331,
+        0.004280259393778849,
+        0.006629014662380223,
+        0.005863083063217148,
+        0.007252938065711917
+      ],
+      "reference": [
+        6,
+        30,
+        55,
+        4,
+        5
+      ],
+      "reference_score": 6.52877,
+      "score_gaps": [
+        3.76723875,
+        4.25674,
+        3.1950825,
+        2.2270525,
+        1.35345375,
+        3.959025,
+        1.0839925,
+        2.66486
+      ],
+      "gap_standard_errors": [
+        0.008342528913880706,
+        0.007812187186591421,
+        0.008201175625322075,
+        0.007794228365348157,
+        0.007103880972481102,
+        0.007934265562087334,
+        0.007577423350746738,
+        0.00924884498776296
+      ],
+      "groups": 200000,
+      "reference_search": {
+        "screen_candidates": 30136,
+        "refined_candidates": 386,
+        "screen_groups": 2048,
+        "check_groups": 8192,
+        "best_allocation": [
+          6,
+          30,
+          55,
+          4,
+          5
+        ],
+        "estimated_best_score": 6.5323486328125,
+        "response_support": 1
+      }
+    }
+  }
+}

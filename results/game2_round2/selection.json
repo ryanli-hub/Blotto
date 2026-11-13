@@ -1,0 +1,90 @@
+{
+  "pool_count": 18055,
+  "refined_count": 4654,
+  "finalist_count": 380,
+  "scenario_count": 277,
+  "selected": [
+    16,
+    17,
+    54,
+    8,
+    5
+  ],
+  "maximum_training_regret": 2.549525,
+  "frozen_candidates": {
+    "teammate": [
+      0,
+      1,
+      36,
+      0,
+      63
+    ],
+    "user": [
+      0,
+      0,
+      49,
+      51,
+      0
+    ],
+    "game1": [
+      8,
+      9,
+      10,
+      11,
+      62
+    ],
+    "previous_compromise": [
+      6,
+      37,
+      50,
+      7,
+      0
+    ],
+    "all_fifth": [
+      0,
+      0,
+      0,
+      0,
+      100
+    ],
+    "castles_4_5": [
+      0,
+      0,
+      0,
+      49,
+      51
+    ],
+    "central_specialist": [
+      13,
+      0,
+      0,
+      0,
+      87
+    ],
+    "round1_robust": [
+      0,
+      5,
+      0,
+      5,
+      90
+    ],
+    "round2_robust": [
+      16,
+      17,
+      54,
+      8,
+      5
+    ]
+  },
+  "candidate_training_regrets": {
+    "teammate": 6.591512499999999,
+    "user": 6.262124999999999,
+    "game1": 5.4053,
+    "previous_compromise": 4.3984000000000005,
+    "all_fifth": 3.26365,
+    "castles_4_5": 6.479474999999999,
+    "central_specialist": 4.673525,
+    "round1_robust": 3.3043249999999995,
+    "round2_robust": 2.549525
+  }
+}

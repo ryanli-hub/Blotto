@@ -1,0 +1,758 @@
+[
+  {
+    "equilibrium_share": 0.0,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      27,
+      1,
+      1,
+      70
+    ],
+    "best_score": 9.437249999999791
+  },
+  {
+    "equilibrium_share": 0.05,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 9.339199999999808
+  },
+  {
+    "equilibrium_share": 0.1,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 9.242399999999819
+  },
+  {
+    "equilibrium_share": 0.15000000000000002,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 9.145599999999828
+  },
+  {
+    "equilibrium_share": 0.2,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 9.048799999999837
+  },
+  {
+    "equilibrium_share": 0.25,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 8.951999999999845
+  },
+  {
+    "equilibrium_share": 0.30000000000000004,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 8.855199999999856
+  },
+  {
+    "equilibrium_share": 0.35000000000000003,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 8.758399999999867
+  },
+  {
+    "equilibrium_share": 0.4,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 8.661599999999876
+  },
+  {
+    "equilibrium_share": 0.45,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 8.564799999999886
+  },
+  {
+    "equilibrium_share": 0.5,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 8.467999999999897
+  },
+  {
+    "equilibrium_share": 0.55,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 8.371199999999906
+  },
+  {
+    "equilibrium_share": 0.6000000000000001,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 8.274399999999916
+  },
+  {
+    "equilibrium_share": 0.65,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 8.177599999999927
+  },
+  {
+    "equilibrium_share": 0.7000000000000001,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 8.080799999999932
+  },
+  {
+    "equilibrium_share": 0.75,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 7.983999999999944
+  },
+  {
+    "equilibrium_share": 0.8,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 7.8871999999999565
+  },
+  {
+    "equilibrium_share": 0.8500000000000001,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 7.790399999999966
+  },
+  {
+    "equilibrium_share": 0.9,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 7.693599999999973
+  },
+  {
+    "equilibrium_share": 0.9500000000000001,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      1,
+      1,
+      34,
+      1,
+      63
+    ],
+    "best_score": 7.596799999999987
+  },
+  {
+    "equilibrium_share": 1.0,
+    "heuristic_share_of_remainder": 0.0,
+    "best_response": [
+      8,
+      17,
+      6,
+      33,
+      36
+    ],
+    "best_score": 7.500000000000046
+  },
+  {
+    "equilibrium_share": 0.0,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 9.521187499999883
+  },
+  {
+    "equilibrium_share": 0.05,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 9.420128124999888
+  },
+  {
+    "equilibrium_share": 0.1,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 9.319068749999897
+  },
+  {
+    "equilibrium_share": 0.15000000000000002,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 9.218009374999902
+  },
+  {
+    "equilibrium_share": 0.2,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 9.11694999999991
+  },
+  {
+    "equilibrium_share": 0.25,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 9.015890624999916
+  },
+  {
+    "equilibrium_share": 0.30000000000000004,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 8.914831249999922
+  },
+  {
+    "equilibrium_share": 0.35000000000000003,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 8.813771874999928
+  },
+  {
+    "equilibrium_share": 0.4,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 8.712712499999935
+  },
+  {
+    "equilibrium_share": 0.45,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 8.611653124999942
+  },
+  {
+    "equilibrium_share": 0.5,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 8.510593749999947
+  },
+  {
+    "equilibrium_share": 0.55,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 8.40953437499995
+  },
+  {
+    "equilibrium_share": 0.6000000000000001,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 8.308474999999959
+  },
+  {
+    "equilibrium_share": 0.65,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 8.207415624999964
+  },
+  {
+    "equilibrium_share": 0.7000000000000001,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 8.106356249999969
+  },
+  {
+    "equilibrium_share": 0.75,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 8.005296874999978
+  },
+  {
+    "equilibrium_share": 0.8,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 7.904237499999985
+  },
+  {
+    "equilibrium_share": 0.8500000000000001,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 7.803178124999992
+  },
+  {
+    "equilibrium_share": 0.9,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 7.702118749999997
+  },
+  {
+    "equilibrium_share": 0.9500000000000001,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      2,
+      2,
+      36,
+      52
+    ],
+    "best_score": 7.601059375000002
+  },
+  {
+    "equilibrium_share": 1.0,
+    "heuristic_share_of_remainder": 0.5,
+    "best_response": [
+      8,
+      17,
+      6,
+      33,
+      36
+    ],
+    "best_score": 7.500000000000046
+  },
+  {
+    "equilibrium_share": 0.0,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 10.201999999999913
+  },
+  {
+    "equilibrium_share": 0.05,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 10.066899999999919
+  },
+  {
+    "equilibrium_share": 0.1,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 9.931799999999923
+  },
+  {
+    "equilibrium_share": 0.15000000000000002,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 9.796699999999927
+  },
+  {
+    "equilibrium_share": 0.2,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 9.66159999999993
+  },
+  {
+    "equilibrium_share": 0.25,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 9.526499999999935
+  },
+  {
+    "equilibrium_share": 0.30000000000000004,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 9.39139999999994
+  },
+  {
+    "equilibrium_share": 0.35000000000000003,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 9.256299999999941
+  },
+  {
+    "equilibrium_share": 0.4,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 9.121199999999947
+  },
+  {
+    "equilibrium_share": 0.45,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 8.986099999999954
+  },
+  {
+    "equilibrium_share": 0.5,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 8.850999999999956
+  },
+  {
+    "equilibrium_share": 0.55,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 8.71589999999996
+  },
+  {
+    "equilibrium_share": 0.6000000000000001,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 8.580799999999964
+  },
+  {
+    "equilibrium_share": 0.65,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 8.44569999999997
+  },
+  {
+    "equilibrium_share": 0.7000000000000001,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 8.310599999999972
+  },
+  {
+    "equilibrium_share": 0.75,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 8.175499999999976
+  },
+  {
+    "equilibrium_share": 0.8,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 8.040399999999982
+  },
+  {
+    "equilibrium_share": 0.8500000000000001,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 7.905299999999986
+  },
+  {
+    "equilibrium_share": 0.9,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 7.77019999999999
+  },
+  {
+    "equilibrium_share": 0.9500000000000001,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      15,
+      23,
+      2,
+      52
+    ],
+    "best_score": 7.635099999999993
+  },
+  {
+    "equilibrium_share": 1.0,
+    "heuristic_share_of_remainder": 1.0,
+    "best_response": [
+      8,
+      17,
+      6,
+      33,
+      36
+    ],
+    "best_score": 7.500000000000046
+  }
+]

@@ -1,0 +1,9 @@
+# Normalize text line endings and preserve binary artifacts.
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.npz binary
+*.png binary
+*.pdf binary
+*.zip binary

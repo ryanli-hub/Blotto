@@ -1,0 +1,189 @@
+{
+  "objective": "Highest weighted mean within 0.25 castle points of the globally best worst-20% mean",
+  "tail_tolerance": 0.25,
+  "primary": "balanced/mean",
+  "allocation": [
+    3,
+    3,
+    13,
+    13,
+    68
+  ],
+  "candidates": {
+    "teammate": [
+      2,
+      16,
+      1,
+      37,
+      44
+    ],
+    "original": [
+      1,
+      14,
+      1,
+      37,
+      47
+    ],
+    "previous_broad": [
+      2,
+      2,
+      3,
+      39,
+      54
+    ],
+    "previous_search": [
+      2,
+      16,
+      10,
+      12,
+      60
+    ],
+    "incumbent": [
+      8,
+      9,
+      10,
+      11,
+      62
+    ],
+    "balanced/mean": [
+      3,
+      3,
+      13,
+      13,
+      68
+    ],
+    "balanced/tail": [
+      0,
+      8,
+      13,
+      11,
+      68
+    ],
+    "balanced/maximin": [
+      0,
+      8,
+      12,
+      11,
+      69
+    ],
+    "balanced/minimax_regret": [
+      3,
+      9,
+      14,
+      6,
+      68
+    ],
+    "concentration_likely/tail": [
+      3,
+      3,
+      13,
+      12,
+      69
+    ],
+    "calculation_likely/mean": [
+      3,
+      2,
+      14,
+      13,
+      68
+    ],
+    "calculation_likely/tail": [
+      2,
+      3,
+      14,
+      12,
+      69
+    ],
+    "original_likely/mean": [
+      4,
+      3,
+      13,
+      13,
+      67
+    ],
+    "T_free_likely/mean": [
+      2,
+      3,
+      14,
+      13,
+      68
+    ],
+    "T_free_likely/tail": [
+      0,
+      6,
+      13,
+      13,
+      68
+    ],
+    "avoid_fifth_likely/mean": [
+      4,
+      3,
+      14,
+      12,
+      67
+    ],
+    "avoid_fifth_likely/guard_0.10": [
+      3,
+      8,
+      13,
+      11,
+      65
+    ]
+  },
+  "aliases": {
+    "balanced/mean": "balanced/mean",
+    "balanced/tail": "balanced/tail",
+    "balanced/maximin": "balanced/maximin",
+    "balanced/minimax_regret": "balanced/minimax_regret",
+    "balanced/guard_0.00": "balanced/tail",
+    "balanced/guard_0.10": "balanced/mean",
+    "balanced/guard_0.25": "balanced/mean",
+    "balanced/guard_0.50": "balanced/mean",
+    "concentration_likely/mean": "balanced/mean",
+    "concentration_likely/tail": "concentration_likely/tail",
+    "concentration_likely/maximin": "balanced/maximin",
+    "concentration_likely/minimax_regret": "balanced/minimax_regret",
+    "concentration_likely/guard_0.00": "concentration_likely/tail",
+    "concentration_likely/guard_0.10": "balanced/mean",
+    "concentration_likely/guard_0.25": "balanced/mean",
+    "concentration_likely/guard_0.50": "balanced/mean",
+    "calculation_likely/mean": "calculation_likely/mean",
+    "calculation_likely/tail": "calculation_likely/tail",
+    "calculation_likely/maximin": "balanced/maximin",
+    "calculation_likely/minimax_regret": "balanced/minimax_regret",
+    "calculation_likely/guard_0.00": "calculation_likely/tail",
+    "calculation_likely/guard_0.10": "calculation_likely/mean",
+    "calculation_likely/guard_0.25": "calculation_likely/mean",
+    "calculation_likely/guard_0.50": "calculation_likely/mean",
+    "original_likely/mean": "original_likely/mean",
+    "original_likely/tail": "balanced/tail",
+    "original_likely/maximin": "balanced/maximin",
+    "original_likely/minimax_regret": "balanced/minimax_regret",
+    "original_likely/guard_0.00": "balanced/tail",
+    "original_likely/guard_0.10": "original_likely/mean",
+    "original_likely/guard_0.25": "original_likely/mean",
+    "original_likely/guard_0.50": "original_likely/mean",
+    "T_free_likely/mean": "T_free_likely/mean",
+    "T_free_likely/tail": "T_free_likely/tail",
+    "T_free_likely/maximin": "balanced/maximin",
+    "T_free_likely/minimax_regret": "balanced/minimax_regret",
+    "T_free_likely/guard_0.00": "T_free_likely/tail",
+    "T_free_likely/guard_0.10": "T_free_likely/mean",
+    "T_free_likely/guard_0.25": "T_free_likely/mean",
+    "T_free_likely/guard_0.50": "T_free_likely/mean",
+    "avoid_fifth_likely/mean": "avoid_fifth_likely/mean",
+    "avoid_fifth_likely/tail": "balanced/tail",
+    "avoid_fifth_likely/maximin": "balanced/maximin",
+    "avoid_fifth_likely/minimax_regret": "balanced/minimax_regret",
+    "avoid_fifth_likely/guard_0.00": "balanced/tail",
+    "avoid_fifth_likely/guard_0.10": "avoid_fifth_likely/guard_0.10",
+    "avoid_fifth_likely/guard_0.25": "avoid_fifth_likely/mean",
+    "avoid_fifth_likely/guard_0.50": "avoid_fifth_likely/mean"
+  },
+  "arguments": {
+    "seed": 2026110401,
+    "samples": 4000,
+    "responses_per_order": 8,
+    "output": "results/game1_final"
+  }
+}

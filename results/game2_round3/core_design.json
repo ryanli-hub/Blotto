@@ -1,0 +1,2729 @@
+{
+  "arguments": {
+    "seed": 2026110403,
+    "population_samples": 3000,
+    "response_screen": 1024,
+    "response_check": 8192,
+    "search_screen": 1024,
+    "search_refine": 8192,
+    "search_calibration": 20000,
+    "test_groups": 200000,
+    "audit_groups": 50000,
+    "tail_tolerance": 0.25,
+    "output": "results/game2_round3"
+  },
+  "stage_seeds": [
+    3394239330,
+    2300126523,
+    1406986799,
+    3374190942,
+    652213654,
+    265168093,
+    2469928537,
+    1882768525
+  ],
+  "stage_order": [
+    "training_models",
+    "selection",
+    "fresh_models",
+    "reference_search",
+    "core_games",
+    "stress_models",
+    "stress_games",
+    "old_stress_games"
+  ],
+  "metadata": {
+    "concentration/low/h0.01/shallow": {
+      "bank": "concentration/low",
+      "family": "concentration",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.34,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07381333333333334,
+      "actual_first_three_only_positive_probability": 0.07336000000000001
+    },
+    "concentration/low/h0.01/central": {
+      "bank": "concentration/low",
+      "family": "concentration",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.34,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12000000000000001,
+      "actual_first_three_only_probability": 0.07381333333333336,
+      "actual_first_three_only_positive_probability": 0.07336000000000001
+    },
+    "concentration/low/h0.01/deep": {
+      "bank": "concentration/low",
+      "family": "concentration",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.34,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12000000000000002,
+      "actual_first_three_only_probability": 0.07381333333333336,
+      "actual_first_three_only_positive_probability": 0.07336000000000002
+    },
+    "concentration/low/h0.03/shallow": {
+      "bank": "concentration/low",
+      "family": "concentration",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.32000000000000006,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.11999999999999997,
+      "actual_first_three_only_probability": 0.07370666666666666,
+      "actual_first_three_only_positive_probability": 0.07327999999999998
+    },
+    "concentration/low/h0.03/central": {
+      "bank": "concentration/low",
+      "family": "concentration",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.32000000000000006,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.025,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07370666666666667,
+      "actual_first_three_only_positive_probability": 0.07328000000000001
+    },
+    "concentration/low/h0.03/deep": {
+      "bank": "concentration/low",
+      "family": "concentration",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.32000000000000006,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07370666666666667,
+      "actual_first_three_only_positive_probability": 0.07328000000000001
+    },
+    "concentration/low/h0.05/shallow": {
+      "bank": "concentration/low",
+      "family": "concentration",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.30000000000000004,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.11999999999999997,
+      "actual_first_three_only_probability": 0.0736,
+      "actual_first_three_only_positive_probability": 0.07319999999999999
+    },
+    "concentration/low/h0.05/central": {
+      "bank": "concentration/low",
+      "family": "concentration",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.30000000000000004,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.0736,
+      "actual_first_three_only_positive_probability": 0.0732
+    },
+    "concentration/low/h0.05/deep": {
+      "bank": "concentration/low",
+      "family": "concentration",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.30000000000000004,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.0736,
+      "actual_first_three_only_positive_probability": 0.0732
+    },
+    "concentration/raised/h0.01/shallow": {
+      "bank": "concentration/raised",
+      "family": "concentration",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.34,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12000000000000001,
+      "actual_first_three_only_probability": 0.07200000000000002,
+      "actual_first_three_only_positive_probability": 0.07200000000000002
+    },
+    "concentration/raised/h0.01/central": {
+      "bank": "concentration/raised",
+      "family": "concentration",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.34,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "concentration/raised/h0.01/deep": {
+      "bank": "concentration/raised",
+      "family": "concentration",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.34,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "concentration/raised/h0.03/shallow": {
+      "bank": "concentration/raised",
+      "family": "concentration",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.32000000000000006,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "concentration/raised/h0.03/central": {
+      "bank": "concentration/raised",
+      "family": "concentration",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.32000000000000006,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.025,
+      "actual_exact_100_fifth_probability": 0.12000000000000002,
+      "actual_first_three_only_probability": 0.07200000000000002,
+      "actual_first_three_only_positive_probability": 0.07200000000000002
+    },
+    "concentration/raised/h0.03/deep": {
+      "bank": "concentration/raised",
+      "family": "concentration",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.32000000000000006,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12000000000000002,
+      "actual_first_three_only_probability": 0.07200000000000002,
+      "actual_first_three_only_positive_probability": 0.07200000000000002
+    },
+    "concentration/raised/h0.05/shallow": {
+      "bank": "concentration/raised",
+      "family": "concentration",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.30000000000000004,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "concentration/raised/h0.05/central": {
+      "bank": "concentration/raised",
+      "family": "concentration",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.30000000000000004,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12000000000000001,
+      "actual_first_three_only_probability": 0.07200000000000002,
+      "actual_first_three_only_positive_probability": 0.07200000000000002
+    },
+    "concentration/raised/h0.05/deep": {
+      "bank": "concentration/raised",
+      "family": "concentration",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.30000000000000004,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "calculation/low/h0.01/shallow": {
+      "bank": "calculation/low",
+      "family": "calculation",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.16999999999999998,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07273666666666667,
+      "actual_first_three_only_positive_probability": 0.07251
+    },
+    "calculation/low/h0.01/central": {
+      "bank": "calculation/low",
+      "family": "calculation",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.16999999999999998,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07273666666666667,
+      "actual_first_three_only_positive_probability": 0.07251
+    },
+    "calculation/low/h0.01/deep": {
+      "bank": "calculation/low",
+      "family": "calculation",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.16999999999999998,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07273666666666667,
+      "actual_first_three_only_positive_probability": 0.07251
+    },
+    "calculation/low/h0.03/shallow": {
+      "bank": "calculation/low",
+      "family": "calculation",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.15,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12000000000000001,
+      "actual_first_three_only_probability": 0.07265000000000002,
+      "actual_first_three_only_positive_probability": 0.07245000000000001
+    },
+    "calculation/low/h0.03/central": {
+      "bank": "calculation/low",
+      "family": "calculation",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.15,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.025,
+      "actual_exact_100_fifth_probability": 0.12000000000000001,
+      "actual_first_three_only_probability": 0.07265000000000002,
+      "actual_first_three_only_positive_probability": 0.07245000000000001
+    },
+    "calculation/low/h0.03/deep": {
+      "bank": "calculation/low",
+      "family": "calculation",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.15,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07264999999999999,
+      "actual_first_three_only_positive_probability": 0.07245000000000001
+    },
+    "calculation/low/h0.05/shallow": {
+      "bank": "calculation/low",
+      "family": "calculation",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.13,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.11999999999999997,
+      "actual_first_three_only_probability": 0.07256333333333333,
+      "actual_first_three_only_positive_probability": 0.07238999999999998
+    },
+    "calculation/low/h0.05/central": {
+      "bank": "calculation/low",
+      "family": "calculation",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.13,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07256333333333334,
+      "actual_first_three_only_positive_probability": 0.07239000000000001
+    },
+    "calculation/low/h0.05/deep": {
+      "bank": "calculation/low",
+      "family": "calculation",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.13,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07256333333333334,
+      "actual_first_three_only_positive_probability": 0.07239000000000001
+    },
+    "calculation/raised/h0.01/shallow": {
+      "bank": "calculation/raised",
+      "family": "calculation",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.16999999999999998,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "calculation/raised/h0.01/central": {
+      "bank": "calculation/raised",
+      "family": "calculation",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.16999999999999998,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "calculation/raised/h0.01/deep": {
+      "bank": "calculation/raised",
+      "family": "calculation",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.16999999999999998,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "calculation/raised/h0.03/shallow": {
+      "bank": "calculation/raised",
+      "family": "calculation",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.15,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "calculation/raised/h0.03/central": {
+      "bank": "calculation/raised",
+      "family": "calculation",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.15,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.025,
+      "actual_exact_100_fifth_probability": 0.11999999999999997,
+      "actual_first_three_only_probability": 0.07199999999999998,
+      "actual_first_three_only_positive_probability": 0.07199999999999998
+    },
+    "calculation/raised/h0.03/deep": {
+      "bank": "calculation/raised",
+      "family": "calculation",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.15,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.11999999999999997,
+      "actual_first_three_only_probability": 0.07199999999999998,
+      "actual_first_three_only_positive_probability": 0.07199999999999998
+    },
+    "calculation/raised/h0.05/shallow": {
+      "bank": "calculation/raised",
+      "family": "calculation",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.13,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "calculation/raised/h0.05/central": {
+      "bank": "calculation/raised",
+      "family": "calculation",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.13,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "calculation/raised/h0.05/deep": {
+      "bank": "calculation/raised",
+      "family": "calculation",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.13,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.12,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "fifth/low/h0.01/shallow": {
+      "bank": "fifth/low",
+      "family": "fifth",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.28,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.06078666666666667,
+      "actual_first_three_only_positive_probability": 0.06041333333333334
+    },
+    "fifth/low/h0.01/central": {
+      "bank": "fifth/low",
+      "family": "fifth",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.28,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.17999999999999997,
+      "actual_first_three_only_probability": 0.054953333333333326,
+      "actual_first_three_only_positive_probability": 0.05457999999999999
+    },
+    "fifth/low/h0.01/deep": {
+      "bank": "fifth/low",
+      "family": "fifth",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.28,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.05145333333333334,
+      "actual_first_three_only_positive_probability": 0.05108000000000001
+    },
+    "fifth/low/h0.03/shallow": {
+      "bank": "fifth/low",
+      "family": "fifth",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.26,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.06070666666666668,
+      "actual_first_three_only_positive_probability": 0.060360000000000004
+    },
+    "fifth/low/h0.03/central": {
+      "bank": "fifth/low",
+      "family": "fifth",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.26,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.025,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.05487333333333334,
+      "actual_first_three_only_positive_probability": 0.054526666666666675
+    },
+    "fifth/low/h0.03/deep": {
+      "bank": "fifth/low",
+      "family": "fifth",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.26,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.05137333333333334,
+      "actual_first_three_only_positive_probability": 0.05102666666666667
+    },
+    "fifth/low/h0.05/shallow": {
+      "bank": "fifth/low",
+      "family": "fifth",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.24000000000000005,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.060626666666666676,
+      "actual_first_three_only_positive_probability": 0.060306666666666675
+    },
+    "fifth/low/h0.05/central": {
+      "bank": "fifth/low",
+      "family": "fifth",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.24000000000000005,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.05479333333333335,
+      "actual_first_three_only_positive_probability": 0.05447333333333334
+    },
+    "fifth/low/h0.05/deep": {
+      "bank": "fifth/low",
+      "family": "fifth",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.24000000000000005,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.18000000000000002,
+      "actual_first_three_only_probability": 0.051293333333333344,
+      "actual_first_three_only_positive_probability": 0.05097333333333334
+    },
+    "fifth/raised/h0.01/shallow": {
+      "bank": "fifth/raised",
+      "family": "fifth",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.28,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.048,
+      "actual_first_three_only_positive_probability": 0.048
+    },
+    "fifth/raised/h0.01/central": {
+      "bank": "fifth/raised",
+      "family": "fifth",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.28,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.18000000000000002,
+      "actual_first_three_only_probability": 0.04800000000000001,
+      "actual_first_three_only_positive_probability": 0.04800000000000001
+    },
+    "fifth/raised/h0.01/deep": {
+      "bank": "fifth/raised",
+      "family": "fifth",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.28,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.048,
+      "actual_first_three_only_positive_probability": 0.048
+    },
+    "fifth/raised/h0.03/shallow": {
+      "bank": "fifth/raised",
+      "family": "fifth",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.26,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.048,
+      "actual_first_three_only_positive_probability": 0.048
+    },
+    "fifth/raised/h0.03/central": {
+      "bank": "fifth/raised",
+      "family": "fifth",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.26,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.025,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.048,
+      "actual_first_three_only_positive_probability": 0.048
+    },
+    "fifth/raised/h0.03/deep": {
+      "bank": "fifth/raised",
+      "family": "fifth",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.26,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.048,
+      "actual_first_three_only_positive_probability": 0.048
+    },
+    "fifth/raised/h0.05/shallow": {
+      "bank": "fifth/raised",
+      "family": "fifth",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.24000000000000005,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.048,
+      "actual_first_three_only_positive_probability": 0.048
+    },
+    "fifth/raised/h0.05/central": {
+      "bank": "fifth/raised",
+      "family": "fifth",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.24000000000000005,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.18000000000000002,
+      "actual_first_three_only_probability": 0.04800000000000002,
+      "actual_first_three_only_positive_probability": 0.04800000000000002
+    },
+    "fifth/raised/h0.05/deep": {
+      "bank": "fifth/raised",
+      "family": "fifth",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.24000000000000005,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.75,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.18,
+      "actual_first_three_only_probability": 0.048,
+      "actual_first_three_only_positive_probability": 0.048
+    },
+    "first_three/low/h0.01/shallow": {
+      "bank": "first_three/low",
+      "family": "first_three",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.26,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.07999999999999999,
+      "actual_first_three_only_probability": 0.13304,
+      "actual_first_three_only_positive_probability": 0.13260666666666665
+    },
+    "first_three/low/h0.01/central": {
+      "bank": "first_three/low",
+      "family": "first_three",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.26,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.13304000000000002,
+      "actual_first_three_only_positive_probability": 0.13260666666666668
+    },
+    "first_three/low/h0.01/deep": {
+      "bank": "first_three/low",
+      "family": "first_three",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.26,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.13304000000000002,
+      "actual_first_three_only_positive_probability": 0.13260666666666668
+    },
+    "first_three/low/h0.03/shallow": {
+      "bank": "first_three/low",
+      "family": "first_three",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.24000000000000002,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.07999999999999999,
+      "actual_first_three_only_probability": 0.13295999999999997,
+      "actual_first_three_only_positive_probability": 0.13255999999999996
+    },
+    "first_three/low/h0.03/central": {
+      "bank": "first_three/low",
+      "family": "first_three",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.24000000000000002,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.025,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.13296000000000002,
+      "actual_first_three_only_positive_probability": 0.13256
+    },
+    "first_three/low/h0.03/deep": {
+      "bank": "first_three/low",
+      "family": "first_three",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.24000000000000002,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.13296000000000002,
+      "actual_first_three_only_positive_probability": 0.13256
+    },
+    "first_three/low/h0.05/shallow": {
+      "bank": "first_three/low",
+      "family": "first_three",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.22000000000000003,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.13288,
+      "actual_first_three_only_positive_probability": 0.13251333333333337
+    },
+    "first_three/low/h0.05/central": {
+      "bank": "first_three/low",
+      "family": "first_three",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.22000000000000003,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.07999999999999999,
+      "actual_first_three_only_probability": 0.13287999999999997,
+      "actual_first_three_only_positive_probability": 0.13251333333333332
+    },
+    "first_three/low/h0.05/deep": {
+      "bank": "first_three/low",
+      "family": "first_three",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.22000000000000003,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.13288,
+      "actual_first_three_only_positive_probability": 0.13251333333333337
+    },
+    "first_three/raised/h0.01/shallow": {
+      "bank": "first_three/raised",
+      "family": "first_three",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.26,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.132,
+      "actual_first_three_only_positive_probability": 0.132
+    },
+    "first_three/raised/h0.01/central": {
+      "bank": "first_three/raised",
+      "family": "first_three",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.26,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.07999999999999999,
+      "actual_first_three_only_probability": 0.13199999999999998,
+      "actual_first_three_only_positive_probability": 0.13199999999999998
+    },
+    "first_three/raised/h0.01/deep": {
+      "bank": "first_three/raised",
+      "family": "first_three",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.26,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.132,
+      "actual_first_three_only_positive_probability": 0.132
+    },
+    "first_three/raised/h0.03/shallow": {
+      "bank": "first_three/raised",
+      "family": "first_three",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.24000000000000002,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.132,
+      "actual_first_three_only_positive_probability": 0.132
+    },
+    "first_three/raised/h0.03/central": {
+      "bank": "first_three/raised",
+      "family": "first_three",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.24000000000000002,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.025,
+      "actual_exact_100_fifth_probability": 0.07999999999999999,
+      "actual_first_three_only_probability": 0.13199999999999998,
+      "actual_first_three_only_positive_probability": 0.13199999999999998
+    },
+    "first_three/raised/h0.03/deep": {
+      "bank": "first_three/raised",
+      "family": "first_three",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.24000000000000002,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.132,
+      "actual_first_three_only_positive_probability": 0.132
+    },
+    "first_three/raised/h0.05/shallow": {
+      "bank": "first_three/raised",
+      "family": "first_three",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.22000000000000003,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.132,
+      "actual_first_three_only_positive_probability": 0.132
+    },
+    "first_three/raised/h0.05/central": {
+      "bank": "first_three/raised",
+      "family": "first_three",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.22000000000000003,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.132,
+      "actual_first_three_only_positive_probability": 0.132
+    },
+    "first_three/raised/h0.05/deep": {
+      "bank": "first_three/raised",
+      "family": "first_three",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.22000000000000003,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.25,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.132,
+      "actual_first_three_only_positive_probability": 0.132
+    },
+    "original/low/h0.01/shallow": {
+      "bank": "original/low",
+      "family": "original",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.22999999999999998,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08007666666666667,
+      "actual_first_three_only_probability": 0.07261333333333334,
+      "actual_first_three_only_positive_probability": 0.07253666666666667
+    },
+    "original/low/h0.01/central": {
+      "bank": "original/low",
+      "family": "original",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.22999999999999998,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08007666666666667,
+      "actual_first_three_only_probability": 0.07261333333333334,
+      "actual_first_three_only_positive_probability": 0.07253666666666667
+    },
+    "original/low/h0.01/deep": {
+      "bank": "original/low",
+      "family": "original",
+      "bids": "low",
+      "shares": {
+        "H": 0.01,
+        "C": 0.22999999999999998,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08007666666666667,
+      "actual_first_three_only_probability": 0.07261333333333334,
+      "actual_first_three_only_positive_probability": 0.07253666666666667
+    },
+    "original/low/h0.03/shallow": {
+      "bank": "original/low",
+      "family": "original",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.21,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08007,
+      "actual_first_three_only_probability": 0.07256000000000001,
+      "actual_first_three_only_positive_probability": 0.07249
+    },
+    "original/low/h0.03/central": {
+      "bank": "original/low",
+      "family": "original",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.21,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.025,
+      "actual_exact_100_fifth_probability": 0.08007,
+      "actual_first_three_only_probability": 0.07256000000000001,
+      "actual_first_three_only_positive_probability": 0.07249
+    },
+    "original/low/h0.03/deep": {
+      "bank": "original/low",
+      "family": "original",
+      "bids": "low",
+      "shares": {
+        "H": 0.03,
+        "C": 0.21,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08006999999999999,
+      "actual_first_three_only_probability": 0.07255999999999999,
+      "actual_first_three_only_positive_probability": 0.07248999999999999
+    },
+    "original/low/h0.05/shallow": {
+      "bank": "original/low",
+      "family": "original",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.19,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08006333333333333,
+      "actual_first_three_only_probability": 0.07250666666666666,
+      "actual_first_three_only_positive_probability": 0.07244333333333333
+    },
+    "original/low/h0.05/central": {
+      "bank": "original/low",
+      "family": "original",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.19,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08006333333333333,
+      "actual_first_three_only_probability": 0.07250666666666666,
+      "actual_first_three_only_positive_probability": 0.07244333333333333
+    },
+    "original/low/h0.05/deep": {
+      "bank": "original/low",
+      "family": "original",
+      "bids": "low",
+      "shares": {
+        "H": 0.05,
+        "C": 0.19,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08006333333333333,
+      "actual_first_three_only_probability": 0.07250666666666666,
+      "actual_first_three_only_positive_probability": 0.07244333333333333
+    },
+    "original/raised/h0.01/shallow": {
+      "bank": "original/raised",
+      "family": "original",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.22999999999999998,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "original/raised/h0.01/central": {
+      "bank": "original/raised",
+      "family": "original",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.22999999999999998,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "original/raised/h0.01/deep": {
+      "bank": "original/raised",
+      "family": "original",
+      "bids": "raised",
+      "shares": {
+        "H": 0.01,
+        "C": 0.22999999999999998,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "original/raised/h0.03/shallow": {
+      "bank": "original/raised",
+      "family": "original",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.21,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08000000000000002,
+      "actual_first_three_only_probability": 0.07200000000000002,
+      "actual_first_three_only_positive_probability": 0.07200000000000002
+    },
+    "original/raised/h0.03/central": {
+      "bank": "original/raised",
+      "family": "original",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.21,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.025,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "original/raised/h0.03/deep": {
+      "bank": "original/raised",
+      "family": "original",
+      "bids": "raised",
+      "shares": {
+        "H": 0.03,
+        "C": 0.21,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "original/raised/h0.05/shallow": {
+      "bank": "original/raised",
+      "family": "original",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.19,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "shallow",
+      "S_level_weights": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.07999999999999999,
+      "actual_first_three_only_probability": 0.07199999999999998,
+      "actual_first_three_only_positive_probability": 0.07199999999999998
+    },
+    "original/raised/h0.05/central": {
+      "bank": "original/raised",
+      "family": "original",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.19,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "central",
+      "S_level_weights": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.0125,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    },
+    "original/raised/h0.05/deep": {
+      "bank": "original/raised",
+      "family": "original",
+      "bids": "raised",
+      "shares": {
+        "H": 0.05,
+        "C": 0.19,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      },
+      "S_style": "deep",
+      "S_level_weights": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ],
+      "A_fraction_of_T": 0.5,
+      "world_weight": 0.00625,
+      "actual_exact_100_fifth_probability": 0.08,
+      "actual_first_three_only_probability": 0.07200000000000001,
+      "actual_first_three_only_positive_probability": 0.07200000000000001
+    }
+  },
+  "weights": {
+    "concentration/low/h0.01/shallow": 0.00625,
+    "concentration/low/h0.01/central": 0.0125,
+    "concentration/low/h0.01/deep": 0.00625,
+    "concentration/low/h0.03/shallow": 0.0125,
+    "concentration/low/h0.03/central": 0.025,
+    "concentration/low/h0.03/deep": 0.0125,
+    "concentration/low/h0.05/shallow": 0.00625,
+    "concentration/low/h0.05/central": 0.0125,
+    "concentration/low/h0.05/deep": 0.00625,
+    "concentration/raised/h0.01/shallow": 0.00625,
+    "concentration/raised/h0.01/central": 0.0125,
+    "concentration/raised/h0.01/deep": 0.00625,
+    "concentration/raised/h0.03/shallow": 0.0125,
+    "concentration/raised/h0.03/central": 0.025,
+    "concentration/raised/h0.03/deep": 0.0125,
+    "concentration/raised/h0.05/shallow": 0.00625,
+    "concentration/raised/h0.05/central": 0.0125,
+    "concentration/raised/h0.05/deep": 0.00625,
+    "calculation/low/h0.01/shallow": 0.00625,
+    "calculation/low/h0.01/central": 0.0125,
+    "calculation/low/h0.01/deep": 0.00625,
+    "calculation/low/h0.03/shallow": 0.0125,
+    "calculation/low/h0.03/central": 0.025,
+    "calculation/low/h0.03/deep": 0.0125,
+    "calculation/low/h0.05/shallow": 0.00625,
+    "calculation/low/h0.05/central": 0.0125,
+    "calculation/low/h0.05/deep": 0.00625,
+    "calculation/raised/h0.01/shallow": 0.00625,
+    "calculation/raised/h0.01/central": 0.0125,
+    "calculation/raised/h0.01/deep": 0.00625,
+    "calculation/raised/h0.03/shallow": 0.0125,
+    "calculation/raised/h0.03/central": 0.025,
+    "calculation/raised/h0.03/deep": 0.0125,
+    "calculation/raised/h0.05/shallow": 0.00625,
+    "calculation/raised/h0.05/central": 0.0125,
+    "calculation/raised/h0.05/deep": 0.00625,
+    "fifth/low/h0.01/shallow": 0.00625,
+    "fifth/low/h0.01/central": 0.0125,
+    "fifth/low/h0.01/deep": 0.00625,
+    "fifth/low/h0.03/shallow": 0.0125,
+    "fifth/low/h0.03/central": 0.025,
+    "fifth/low/h0.03/deep": 0.0125,
+    "fifth/low/h0.05/shallow": 0.00625,
+    "fifth/low/h0.05/central": 0.0125,
+    "fifth/low/h0.05/deep": 0.00625,
+    "fifth/raised/h0.01/shallow": 0.00625,
+    "fifth/raised/h0.01/central": 0.0125,
+    "fifth/raised/h0.01/deep": 0.00625,
+    "fifth/raised/h0.03/shallow": 0.0125,
+    "fifth/raised/h0.03/central": 0.025,
+    "fifth/raised/h0.03/deep": 0.0125,
+    "fifth/raised/h0.05/shallow": 0.00625,
+    "fifth/raised/h0.05/central": 0.0125,
+    "fifth/raised/h0.05/deep": 0.00625,
+    "first_three/low/h0.01/shallow": 0.00625,
+    "first_three/low/h0.01/central": 0.0125,
+    "first_three/low/h0.01/deep": 0.00625,
+    "first_three/low/h0.03/shallow": 0.0125,
+    "first_three/low/h0.03/central": 0.025,
+    "first_three/low/h0.03/deep": 0.0125,
+    "first_three/low/h0.05/shallow": 0.00625,
+    "first_three/low/h0.05/central": 0.0125,
+    "first_three/low/h0.05/deep": 0.00625,
+    "first_three/raised/h0.01/shallow": 0.00625,
+    "first_three/raised/h0.01/central": 0.0125,
+    "first_three/raised/h0.01/deep": 0.00625,
+    "first_three/raised/h0.03/shallow": 0.0125,
+    "first_three/raised/h0.03/central": 0.025,
+    "first_three/raised/h0.03/deep": 0.0125,
+    "first_three/raised/h0.05/shallow": 0.00625,
+    "first_three/raised/h0.05/central": 0.0125,
+    "first_three/raised/h0.05/deep": 0.00625,
+    "original/low/h0.01/shallow": 0.00625,
+    "original/low/h0.01/central": 0.0125,
+    "original/low/h0.01/deep": 0.00625,
+    "original/low/h0.03/shallow": 0.0125,
+    "original/low/h0.03/central": 0.025,
+    "original/low/h0.03/deep": 0.0125,
+    "original/low/h0.05/shallow": 0.00625,
+    "original/low/h0.05/central": 0.0125,
+    "original/low/h0.05/deep": 0.00625,
+    "original/raised/h0.01/shallow": 0.00625,
+    "original/raised/h0.01/central": 0.0125,
+    "original/raised/h0.01/deep": 0.00625,
+    "original/raised/h0.03/shallow": 0.0125,
+    "original/raised/h0.03/central": 0.025,
+    "original/raised/h0.03/deep": 0.0125,
+    "original/raised/h0.05/shallow": 0.00625,
+    "original/raised/h0.05/central": 0.0125,
+    "original/raised/h0.05/deep": 0.00625
+  },
+  "parameters": {
+    "seed": 1406986799,
+    "samples": 3000,
+    "screen": 1024,
+    "check": 8192,
+    "fresh": true,
+    "shared_seeds": {
+      "anchors": 3228664493,
+      "F_zero": 1474322042,
+      "F_secondary": 427018788
+    },
+    "family_shares": {
+      "concentration": {
+        "H": 0.02,
+        "C": 0.33,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.15,
+        "S": 0.26
+      },
+      "calculation": {
+        "H": 0.02,
+        "C": 0.16,
+        "Z": 0.12,
+        "F": 0.12,
+        "T": 0.08,
+        "S": 0.5
+      },
+      "fifth": {
+        "H": 0.02,
+        "C": 0.27,
+        "Z": 0.18,
+        "F": 0.08,
+        "T": 0.1,
+        "S": 0.35
+      },
+      "first_three": {
+        "H": 0.02,
+        "C": 0.25,
+        "Z": 0.08,
+        "F": 0.22,
+        "T": 0.1,
+        "S": 0.33
+      },
+      "original": {
+        "H": 0.02,
+        "C": 0.22,
+        "Z": 0.08,
+        "F": 0.12,
+        "T": 0.28,
+        "S": 0.28
+      }
+    },
+    "family_world_weights": {
+      "concentration": 0.2,
+      "calculation": 0.2,
+      "fifth": 0.2,
+      "first_three": 0.2,
+      "original": 0.2
+    },
+    "bid_world_weights": {
+      "low": 0.5,
+      "raised": 0.5
+    },
+    "H_values": [
+      0.01,
+      0.03,
+      0.05
+    ],
+    "H_world_weights": [
+      0.25,
+      0.5,
+      0.25
+    ],
+    "S_styles": {
+      "shallow": [
+        0.05,
+        0.5,
+        0.45,
+        0.0
+      ],
+      "central": [
+        0.0,
+        0.25,
+        0.5,
+        0.25
+      ],
+      "deep": [
+        0.0,
+        0.1,
+        0.35,
+        0.55
+      ]
+    },
+    "S_style_world_weights": [
+      0.25,
+      0.5,
+      0.25
+    ],
+    "F_mixture_weights": [
+      0.5,
+      0.5
+    ],
+    "F_components": [
+      {
+        "samples_per_noisy_branch": 3000,
+        "seed": 1474322042,
+        "secondary_profile": "zero",
+        "zero_secondary_share": 1.0,
+        "positive_secondary_pairs": [],
+        "positive_pair_weighting": "uniform",
+        "anchor_fraction_within_branch": 0.25,
+        "first_three_anchors": [
+          [
+            33,
+            33,
+            34
+          ],
+          [
+            17,
+            33,
+            50
+          ],
+          [
+            15,
+            30,
+            55
+          ],
+          [
+            20,
+            25,
+            55
+          ]
+        ],
+        "anchor_probabilities": [
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "noise_sigma": 0.2,
+        "one_soldier_transfer_probability": 0.5,
+        "minimum_first_three_bid": 1,
+        "first_three_positive_support_count": 745,
+        "support_count": 745
+      },
+      {
+        "samples_per_noisy_branch": 3000,
+        "seed": 427018788,
+        "secondary_profile": "shifted",
+        "zero_secondary_share": 0.2,
+        "positive_secondary_pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            0
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            0
+          ],
+          [
+            4,
+            1
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            0
+          ],
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            5,
+            5
+          ]
+        ],
+        "positive_pair_weighting": "uniform",
+        "anchor_fraction_within_branch": 0.25,
+        "first_three_anchors": [
+          [
+            33,
+            33,
+            34
+          ],
+          [
+            17,
+            33,
+            50
+          ],
+          [
+            15,
+            30,
+            55
+          ],
+          [
+            20,
+            25,
+            55
+          ],
+          [
+            35,
+            40,
+            25
+          ],
+          [
+            25,
+            45,
+            30
+          ]
+        ],
+        "anchor_probabilities": [
+          0.15,
+          0.15,
+          0.2,
+          0.2,
+          0.15,
+          0.15
+        ],
+        "noise_sigma": 0.35,
+        "one_soldier_transfer_probability": 0.5,
+        "minimum_first_three_bid": 1,
+        "first_three_positive_support_count": 4449,
+        "support_count": 4449
+      }
+    ],
+    "Z_allocation": [
+      0,
+      0,
+      0,
+      0,
+      100
+    ]
+  }
+}

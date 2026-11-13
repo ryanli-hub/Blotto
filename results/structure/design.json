@@ -1,0 +1,57 @@
+{
+  "anchors": [
+    [
+      2,
+      16,
+      1,
+      37,
+      44
+    ],
+    [
+      1,
+      14,
+      1,
+      37,
+      47
+    ]
+  ],
+  "training_shares": [
+    0.1,
+    0.25,
+    0.4,
+    0.6
+  ],
+  "validation_shares": [
+    0.05,
+    0.1,
+    0.15,
+    0.25,
+    0.35,
+    0.4,
+    0.55,
+    0.6
+  ],
+  "training_seed": 20650619,
+  "validation_seed": 20891413,
+  "C_samples_per_fresh_profile": 4000,
+  "response_fraction_of_remainder": 0.15,
+  "response_samples_per_belief": 24,
+  "training_belief_offsets": [
+    -0.1,
+    0,
+    0.1
+  ],
+  "validation_belief_offsets": [
+    -0.15,
+    0.05,
+    0.15
+  ],
+  "training_response_slack": 0.1,
+  "validation_response_slack": 0.05,
+  "objective": "unrestricted minimax regret over bases, fixed mixtures, and finite response scenarios",
+  "score_floors": null,
+  "selection": "one fixed strategy covering new-cohort shares from zero through 60 percent",
+  "legacy_cases": "retain prior search and final validation scenarios at the 15 percent cap",
+  "baseline_control": "same unrestricted objective before adding the new cohort",
+  "fresh_legacy_checks": "new peers and further responses at up to 15 percent, against a common current/selected pool"
+}

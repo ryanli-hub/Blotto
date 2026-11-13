@@ -1,0 +1,20 @@
+{
+  "cohort/concentration/F40": "p0000",
+  "cohort/concentration/Z40": "p0001",
+  "strategy/concentration/mean/copy15": "p0002",
+  "strategy/concentration/mean/anticipate15": "p0003",
+  "strategy/concentration/minimax_regret/copy15": "p0004",
+  "strategy/concentration/minimax_regret/anticipate15": "p0005",
+  "cohort/first_three/F40": "p0006",
+  "cohort/first_three/Z40": "p0007",
+  "strategy/first_three/mean/copy15": "p0008",
+  "strategy/first_three/mean/anticipate15": "p0009",
+  "strategy/first_three/minimax_regret/copy15": "p0010",
+  "strategy/first_three/minimax_regret/anticipate15": "p0011",
+  "cohort/fifth/F40": "p0012",
+  "cohort/fifth/Z40": "p0013",
+  "strategy/fifth/mean/copy15": "p0014",
+  "strategy/fifth/mean/anticipate15": "p0015",
+  "strategy/fifth/minimax_regret/copy15": "p0016",
+  "strategy/fifth/minimax_regret/anticipate15": "p0017"
+}

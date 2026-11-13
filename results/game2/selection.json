@@ -1,0 +1,128 @@
+{
+  "initial_candidates": 16689,
+  "refined_candidates": 1103,
+  "calibrated_candidates": 152,
+  "scenarios": [
+    "balanced/h0.00/s0.35/t0.00/a0.50",
+    "balanced/h0.00/s0.35/t0.20/a0.50",
+    "balanced/h0.00/s0.35/t0.40/a0.50",
+    "balanced/h0.00/s0.65/t0.00/a0.50",
+    "balanced/h0.00/s0.65/t0.20/a0.50",
+    "balanced/h0.00/s0.65/t0.40/a0.50",
+    "balanced/h0.05/s0.35/t0.00/a0.50",
+    "balanced/h0.05/s0.35/t0.20/a0.50",
+    "balanced/h0.05/s0.35/t0.40/a0.50",
+    "balanced/h0.05/s0.65/t0.00/a0.50",
+    "balanced/h0.05/s0.65/t0.20/a0.50",
+    "balanced/h0.05/s0.65/t0.40/a0.50",
+    "balanced/h0.15/s0.35/t0.00/a0.50",
+    "balanced/h0.15/s0.35/t0.20/a0.50",
+    "balanced/h0.15/s0.35/t0.40/a0.50",
+    "balanced/h0.15/s0.65/t0.00/a0.50",
+    "balanced/h0.15/s0.65/t0.20/a0.50",
+    "balanced/h0.15/s0.65/t0.40/a0.50",
+    "fifth_crowded/h0.00/s0.35/t0.00/a0.50",
+    "fifth_crowded/h0.00/s0.35/t0.20/a0.50",
+    "fifth_crowded/h0.00/s0.35/t0.40/a0.50",
+    "fifth_crowded/h0.00/s0.65/t0.00/a0.50",
+    "fifth_crowded/h0.00/s0.65/t0.20/a0.50",
+    "fifth_crowded/h0.00/s0.65/t0.40/a0.50",
+    "fifth_crowded/h0.05/s0.35/t0.00/a0.50",
+    "fifth_crowded/h0.05/s0.35/t0.20/a0.50",
+    "fifth_crowded/h0.05/s0.35/t0.40/a0.50",
+    "fifth_crowded/h0.05/s0.65/t0.00/a0.50",
+    "fifth_crowded/h0.05/s0.65/t0.20/a0.50",
+    "fifth_crowded/h0.05/s0.65/t0.40/a0.50",
+    "fifth_crowded/h0.15/s0.35/t0.00/a0.50",
+    "fifth_crowded/h0.15/s0.35/t0.20/a0.50",
+    "fifth_crowded/h0.15/s0.35/t0.40/a0.50",
+    "fifth_crowded/h0.15/s0.65/t0.00/a0.50",
+    "fifth_crowded/h0.15/s0.65/t0.20/a0.50",
+    "fifth_crowded/h0.15/s0.65/t0.40/a0.50",
+    "fifth_avoided/h0.00/s0.35/t0.00/a0.50",
+    "fifth_avoided/h0.00/s0.35/t0.20/a0.50",
+    "fifth_avoided/h0.00/s0.35/t0.40/a0.50",
+    "fifth_avoided/h0.00/s0.65/t0.00/a0.50",
+    "fifth_avoided/h0.00/s0.65/t0.20/a0.50",
+    "fifth_avoided/h0.00/s0.65/t0.40/a0.50",
+    "fifth_avoided/h0.05/s0.35/t0.00/a0.50",
+    "fifth_avoided/h0.05/s0.35/t0.20/a0.50",
+    "fifth_avoided/h0.05/s0.35/t0.40/a0.50",
+    "fifth_avoided/h0.05/s0.65/t0.00/a0.50",
+    "fifth_avoided/h0.05/s0.65/t0.20/a0.50",
+    "fifth_avoided/h0.05/s0.65/t0.40/a0.50",
+    "fifth_avoided/h0.15/s0.35/t0.00/a0.50",
+    "fifth_avoided/h0.15/s0.35/t0.20/a0.50",
+    "fifth_avoided/h0.15/s0.35/t0.40/a0.50",
+    "fifth_avoided/h0.15/s0.65/t0.00/a0.50",
+    "fifth_avoided/h0.15/s0.65/t0.20/a0.50",
+    "fifth_avoided/h0.15/s0.65/t0.40/a0.50"
+  ],
+  "selected": [
+    0,
+    5,
+    0,
+    5,
+    90
+  ],
+  "selected_maximum_search_regret": 1.4575375,
+  "central_scenario": "balanced/h0.05/s0.65/t0.20/a0.50",
+  "frozen_candidates": {
+    "teammate": [
+      0,
+      1,
+      36,
+      0,
+      63
+    ],
+    "user": [
+      0,
+      0,
+      49,
+      51,
+      0
+    ],
+    "game1": [
+      8,
+      9,
+      10,
+      11,
+      62
+    ],
+    "previous_compromise": [
+      6,
+      37,
+      50,
+      7,
+      0
+    ],
+    "all_fifth": [
+      0,
+      0,
+      0,
+      0,
+      100
+    ],
+    "castles_4_5": [
+      0,
+      0,
+      0,
+      49,
+      51
+    ],
+    "new_robust": [
+      0,
+      5,
+      0,
+      5,
+      90
+    ],
+    "central_specialist": [
+      13,
+      0,
+      0,
+      0,
+      87
+    ]
+  }
+}

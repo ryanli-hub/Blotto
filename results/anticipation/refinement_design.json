@@ -1,0 +1,20 @@
+{
+  "maximum_base_score_loss": 0.1,
+  "reference": [
+    8,
+    9,
+    10,
+    11,
+    62
+  ],
+  "known_bases": 222,
+  "known_scenarios": 2442,
+  "validation_seed": 20510329,
+  "belief_shares": [
+    0.1,
+    0.2
+  ],
+  "near_best_slack": 0.075,
+  "advanced_share_cap": 0.15,
+  "purpose": "preserve each known base score, then minimize worst regret including observed follow-on responses"
+}

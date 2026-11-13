@@ -1,0 +1,1539 @@
+{
+  "timing": "Planned by the coverage audit while training was running, before the round 2 choice was frozen; holdout results do not enter training.",
+  "reason": "Extend fresh validation from 14%/15% C to 43.4% C.",
+  "arguments": {
+    "seed": 2026110402,
+    "population_samples": 3000,
+    "response_screen": 1024,
+    "response_check": 8192,
+    "search_screen": 1024,
+    "search_refine": 8192,
+    "search_calibration": 20000,
+    "test_groups": 200000,
+    "output": "results/game2_round2",
+    "concentration_holdout_only": true
+  },
+  "stage_seed_entropy": [
+    2026110402,
+    434
+  ],
+  "stage_seeds": [
+    2745835874,
+    3518116813
+  ],
+  "stage_seed_order": [
+    "reference_calibration",
+    "test_games"
+  ],
+  "frozen_candidates": {
+    "teammate": [
+      0,
+      1,
+      36,
+      0,
+      63
+    ],
+    "user": [
+      0,
+      0,
+      49,
+      51,
+      0
+    ],
+    "game1": [
+      8,
+      9,
+      10,
+      11,
+      62
+    ],
+    "previous_compromise": [
+      6,
+      37,
+      50,
+      7,
+      0
+    ],
+    "all_fifth": [
+      0,
+      0,
+      0,
+      0,
+      100
+    ],
+    "castles_4_5": [
+      0,
+      0,
+      0,
+      49,
+      51
+    ],
+    "central_specialist": [
+      13,
+      0,
+      0,
+      0,
+      87
+    ],
+    "round1_robust": [
+      0,
+      5,
+      0,
+      5,
+      90
+    ],
+    "round2_robust": [
+      16,
+      17,
+      54,
+      8,
+      5
+    ]
+  },
+  "benchmark_pool_size": 50078,
+  "benchmark_pool_definition": "Union of the initial pool, training finalists, previous-round reference allocations, and saved fresh population supports.",
+  "conditional_C_generations": 6,
+  "H_anchor_seed": 345800053,
+  "scenarios": {
+    "concentration_holdout/balanced/low/single0.10/allin0.20/depth3": {
+      "source_scenario": "balanced/low/single0.10/allin0.20/depth3/T_A",
+      "model": "balanced/low/single0.10/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.014255238095238099
+    },
+    "concentration_holdout/balanced/low/single0.10/allin0.20/depth4": {
+      "source_scenario": "balanced/low/single0.10/allin0.20/depth4/T_A",
+      "model": "balanced/low/single0.10/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.014255238095238099
+    },
+    "concentration_holdout/balanced/low/single0.10/allin0.80/depth3": {
+      "source_scenario": "balanced/low/single0.10/allin0.80/depth3/T_A",
+      "model": "balanced/low/single0.10/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.04642095238095238
+    },
+    "concentration_holdout/balanced/low/single0.10/allin0.80/depth4": {
+      "source_scenario": "balanced/low/single0.10/allin0.80/depth4/T_A",
+      "model": "balanced/low/single0.10/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.04642095238095238
+    },
+    "concentration_holdout/balanced/low/single0.25/allin0.20/depth3": {
+      "source_scenario": "balanced/low/single0.25/allin0.20/depth3/T_A",
+      "model": "balanced/low/single0.25/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.035638095238095246
+    },
+    "concentration_holdout/balanced/low/single0.25/allin0.20/depth4": {
+      "source_scenario": "balanced/low/single0.25/allin0.20/depth4/T_A",
+      "model": "balanced/low/single0.25/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.035638095238095246
+    },
+    "concentration_holdout/balanced/low/single0.25/allin0.80/depth3": {
+      "source_scenario": "balanced/low/single0.25/allin0.80/depth3/T_A",
+      "model": "balanced/low/single0.25/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.11605238095238096
+    },
+    "concentration_holdout/balanced/low/single0.25/allin0.80/depth4": {
+      "source_scenario": "balanced/low/single0.25/allin0.80/depth4/T_A",
+      "model": "balanced/low/single0.25/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.11605238095238096
+    },
+    "concentration_holdout/balanced/low/single0.40/allin0.20/depth3": {
+      "source_scenario": "balanced/low/single0.40/allin0.20/depth3/T_A",
+      "model": "balanced/low/single0.40/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.05702095238095238
+    },
+    "concentration_holdout/balanced/low/single0.40/allin0.20/depth4": {
+      "source_scenario": "balanced/low/single0.40/allin0.20/depth4/T_A",
+      "model": "balanced/low/single0.40/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.05702095238095238
+    },
+    "concentration_holdout/balanced/low/single0.40/allin0.80/depth3": {
+      "source_scenario": "balanced/low/single0.40/allin0.80/depth3/T_A",
+      "model": "balanced/low/single0.40/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.18568380952380956
+    },
+    "concentration_holdout/balanced/low/single0.40/allin0.80/depth4": {
+      "source_scenario": "balanced/low/single0.40/allin0.80/depth4/T_A",
+      "model": "balanced/low/single0.40/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.18568380952380956
+    },
+    "concentration_holdout/balanced/high/single0.10/allin0.20/depth3": {
+      "source_scenario": "balanced/high/single0.10/allin0.20/depth3/T_A",
+      "model": "balanced/high/single0.10/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.011428571428571429
+    },
+    "concentration_holdout/balanced/high/single0.10/allin0.20/depth4": {
+      "source_scenario": "balanced/high/single0.10/allin0.20/depth4/T_A",
+      "model": "balanced/high/single0.10/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.011428571428571429
+    },
+    "concentration_holdout/balanced/high/single0.10/allin0.80/depth3": {
+      "source_scenario": "balanced/high/single0.10/allin0.80/depth3/T_A",
+      "model": "balanced/high/single0.10/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.04571428571428571
+    },
+    "concentration_holdout/balanced/high/single0.10/allin0.80/depth4": {
+      "source_scenario": "balanced/high/single0.10/allin0.80/depth4/T_A",
+      "model": "balanced/high/single0.10/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.04571428571428571
+    },
+    "concentration_holdout/balanced/high/single0.25/allin0.20/depth3": {
+      "source_scenario": "balanced/high/single0.25/allin0.20/depth3/T_A",
+      "model": "balanced/high/single0.25/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.02857142857142857
+    },
+    "concentration_holdout/balanced/high/single0.25/allin0.20/depth4": {
+      "source_scenario": "balanced/high/single0.25/allin0.20/depth4/T_A",
+      "model": "balanced/high/single0.25/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.02857142857142857
+    },
+    "concentration_holdout/balanced/high/single0.25/allin0.80/depth3": {
+      "source_scenario": "balanced/high/single0.25/allin0.80/depth3/T_A",
+      "model": "balanced/high/single0.25/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.11428571428571428
+    },
+    "concentration_holdout/balanced/high/single0.25/allin0.80/depth4": {
+      "source_scenario": "balanced/high/single0.25/allin0.80/depth4/T_A",
+      "model": "balanced/high/single0.25/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.11428571428571428
+    },
+    "concentration_holdout/balanced/high/single0.40/allin0.20/depth3": {
+      "source_scenario": "balanced/high/single0.40/allin0.20/depth3/T_A",
+      "model": "balanced/high/single0.40/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.045714285714285714
+    },
+    "concentration_holdout/balanced/high/single0.40/allin0.20/depth4": {
+      "source_scenario": "balanced/high/single0.40/allin0.20/depth4/T_A",
+      "model": "balanced/high/single0.40/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.045714285714285714
+    },
+    "concentration_holdout/balanced/high/single0.40/allin0.80/depth3": {
+      "source_scenario": "balanced/high/single0.40/allin0.80/depth3/T_A",
+      "model": "balanced/high/single0.40/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.18285714285714288
+    },
+    "concentration_holdout/balanced/high/single0.40/allin0.80/depth4": {
+      "source_scenario": "balanced/high/single0.40/allin0.80/depth4/T_A",
+      "model": "balanced/high/single0.40/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.18285714285714288
+    },
+    "concentration_holdout/fifth_crowded/low/single0.10/allin0.20/depth3": {
+      "source_scenario": "fifth_crowded/low/single0.10/allin0.20/depth3/T_A",
+      "model": "fifth_crowded/low/single0.10/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.01986666666666667
+    },
+    "concentration_holdout/fifth_crowded/low/single0.10/allin0.20/depth4": {
+      "source_scenario": "fifth_crowded/low/single0.10/allin0.20/depth4/T_A",
+      "model": "fifth_crowded/low/single0.10/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.01986666666666667
+    },
+    "concentration_holdout/fifth_crowded/low/single0.10/allin0.80/depth3": {
+      "source_scenario": "fifth_crowded/low/single0.10/allin0.80/depth3/T_A",
+      "model": "fifth_crowded/low/single0.10/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.06496666666666667
+    },
+    "concentration_holdout/fifth_crowded/low/single0.10/allin0.80/depth4": {
+      "source_scenario": "fifth_crowded/low/single0.10/allin0.80/depth4/T_A",
+      "model": "fifth_crowded/low/single0.10/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.06496666666666667
+    },
+    "concentration_holdout/fifth_crowded/low/single0.25/allin0.20/depth3": {
+      "source_scenario": "fifth_crowded/low/single0.25/allin0.20/depth3/T_A",
+      "model": "fifth_crowded/low/single0.25/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.04966666666666668
+    },
+    "concentration_holdout/fifth_crowded/low/single0.25/allin0.20/depth4": {
+      "source_scenario": "fifth_crowded/low/single0.25/allin0.20/depth4/T_A",
+      "model": "fifth_crowded/low/single0.25/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.04966666666666668
+    },
+    "concentration_holdout/fifth_crowded/low/single0.25/allin0.80/depth3": {
+      "source_scenario": "fifth_crowded/low/single0.25/allin0.80/depth3/T_A",
+      "model": "fifth_crowded/low/single0.25/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.16241666666666668
+    },
+    "concentration_holdout/fifth_crowded/low/single0.25/allin0.80/depth4": {
+      "source_scenario": "fifth_crowded/low/single0.25/allin0.80/depth4/T_A",
+      "model": "fifth_crowded/low/single0.25/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.16241666666666668
+    },
+    "concentration_holdout/fifth_crowded/low/single0.40/allin0.20/depth3": {
+      "source_scenario": "fifth_crowded/low/single0.40/allin0.20/depth3/T_A",
+      "model": "fifth_crowded/low/single0.40/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.07946666666666669
+    },
+    "concentration_holdout/fifth_crowded/low/single0.40/allin0.20/depth4": {
+      "source_scenario": "fifth_crowded/low/single0.40/allin0.20/depth4/T_A",
+      "model": "fifth_crowded/low/single0.40/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.07946666666666669
+    },
+    "concentration_holdout/fifth_crowded/low/single0.40/allin0.80/depth3": {
+      "source_scenario": "fifth_crowded/low/single0.40/allin0.80/depth3/T_A",
+      "model": "fifth_crowded/low/single0.40/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.2598666666666667
+    },
+    "concentration_holdout/fifth_crowded/low/single0.40/allin0.80/depth4": {
+      "source_scenario": "fifth_crowded/low/single0.40/allin0.80/depth4/T_A",
+      "model": "fifth_crowded/low/single0.40/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.2598666666666667
+    },
+    "concentration_holdout/fifth_crowded/high/single0.10/allin0.20/depth3": {
+      "source_scenario": "fifth_crowded/high/single0.10/allin0.20/depth3/T_A",
+      "model": "fifth_crowded/high/single0.10/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.016
+    },
+    "concentration_holdout/fifth_crowded/high/single0.10/allin0.20/depth4": {
+      "source_scenario": "fifth_crowded/high/single0.10/allin0.20/depth4/T_A",
+      "model": "fifth_crowded/high/single0.10/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.016
+    },
+    "concentration_holdout/fifth_crowded/high/single0.10/allin0.80/depth3": {
+      "source_scenario": "fifth_crowded/high/single0.10/allin0.80/depth3/T_A",
+      "model": "fifth_crowded/high/single0.10/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.064
+    },
+    "concentration_holdout/fifth_crowded/high/single0.10/allin0.80/depth4": {
+      "source_scenario": "fifth_crowded/high/single0.10/allin0.80/depth4/T_A",
+      "model": "fifth_crowded/high/single0.10/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.064
+    },
+    "concentration_holdout/fifth_crowded/high/single0.25/allin0.20/depth3": {
+      "source_scenario": "fifth_crowded/high/single0.25/allin0.20/depth3/T_A",
+      "model": "fifth_crowded/high/single0.25/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.04000000000000001
+    },
+    "concentration_holdout/fifth_crowded/high/single0.25/allin0.20/depth4": {
+      "source_scenario": "fifth_crowded/high/single0.25/allin0.20/depth4/T_A",
+      "model": "fifth_crowded/high/single0.25/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.04000000000000001
+    },
+    "concentration_holdout/fifth_crowded/high/single0.25/allin0.80/depth3": {
+      "source_scenario": "fifth_crowded/high/single0.25/allin0.80/depth3/T_A",
+      "model": "fifth_crowded/high/single0.25/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.16000000000000006
+    },
+    "concentration_holdout/fifth_crowded/high/single0.25/allin0.80/depth4": {
+      "source_scenario": "fifth_crowded/high/single0.25/allin0.80/depth4/T_A",
+      "model": "fifth_crowded/high/single0.25/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.16000000000000006
+    },
+    "concentration_holdout/fifth_crowded/high/single0.40/allin0.20/depth3": {
+      "source_scenario": "fifth_crowded/high/single0.40/allin0.20/depth3/T_A",
+      "model": "fifth_crowded/high/single0.40/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.06400000000000002
+    },
+    "concentration_holdout/fifth_crowded/high/single0.40/allin0.20/depth4": {
+      "source_scenario": "fifth_crowded/high/single0.40/allin0.20/depth4/T_A",
+      "model": "fifth_crowded/high/single0.40/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.06400000000000002
+    },
+    "concentration_holdout/fifth_crowded/high/single0.40/allin0.80/depth3": {
+      "source_scenario": "fifth_crowded/high/single0.40/allin0.80/depth3/T_A",
+      "model": "fifth_crowded/high/single0.40/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.25600000000000006
+    },
+    "concentration_holdout/fifth_crowded/high/single0.40/allin0.80/depth4": {
+      "source_scenario": "fifth_crowded/high/single0.40/allin0.80/depth4/T_A",
+      "model": "fifth_crowded/high/single0.40/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.25600000000000006
+    },
+    "concentration_holdout/fifth_avoided/low/single0.10/allin0.20/depth3": {
+      "source_scenario": "fifth_avoided/low/single0.10/allin0.20/depth3/T_A",
+      "model": "fifth_avoided/low/single0.10/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.006306666666666666
+    },
+    "concentration_holdout/fifth_avoided/low/single0.10/allin0.20/depth4": {
+      "source_scenario": "fifth_avoided/low/single0.10/allin0.20/depth4/T_A",
+      "model": "fifth_avoided/low/single0.10/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.006306666666666666
+    },
+    "concentration_holdout/fifth_avoided/low/single0.10/allin0.80/depth3": {
+      "source_scenario": "fifth_avoided/low/single0.10/allin0.80/depth3/T_A",
+      "model": "fifth_avoided/low/single0.10/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.02032666666666667
+    },
+    "concentration_holdout/fifth_avoided/low/single0.10/allin0.80/depth4": {
+      "source_scenario": "fifth_avoided/low/single0.10/allin0.80/depth4/T_A",
+      "model": "fifth_avoided/low/single0.10/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.02032666666666667
+    },
+    "concentration_holdout/fifth_avoided/low/single0.25/allin0.20/depth3": {
+      "source_scenario": "fifth_avoided/low/single0.25/allin0.20/depth3/T_A",
+      "model": "fifth_avoided/low/single0.25/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.01576666666666667
+    },
+    "concentration_holdout/fifth_avoided/low/single0.25/allin0.20/depth4": {
+      "source_scenario": "fifth_avoided/low/single0.25/allin0.20/depth4/T_A",
+      "model": "fifth_avoided/low/single0.25/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.01576666666666667
+    },
+    "concentration_holdout/fifth_avoided/low/single0.25/allin0.80/depth3": {
+      "source_scenario": "fifth_avoided/low/single0.25/allin0.80/depth3/T_A",
+      "model": "fifth_avoided/low/single0.25/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.05081666666666667
+    },
+    "concentration_holdout/fifth_avoided/low/single0.25/allin0.80/depth4": {
+      "source_scenario": "fifth_avoided/low/single0.25/allin0.80/depth4/T_A",
+      "model": "fifth_avoided/low/single0.25/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.05081666666666667
+    },
+    "concentration_holdout/fifth_avoided/low/single0.40/allin0.20/depth3": {
+      "source_scenario": "fifth_avoided/low/single0.40/allin0.20/depth3/T_A",
+      "model": "fifth_avoided/low/single0.40/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.02522666666666667
+    },
+    "concentration_holdout/fifth_avoided/low/single0.40/allin0.20/depth4": {
+      "source_scenario": "fifth_avoided/low/single0.40/allin0.20/depth4/T_A",
+      "model": "fifth_avoided/low/single0.40/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.02522666666666667
+    },
+    "concentration_holdout/fifth_avoided/low/single0.40/allin0.80/depth3": {
+      "source_scenario": "fifth_avoided/low/single0.40/allin0.80/depth3/T_A",
+      "model": "fifth_avoided/low/single0.40/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.08130666666666668
+    },
+    "concentration_holdout/fifth_avoided/low/single0.40/allin0.80/depth4": {
+      "source_scenario": "fifth_avoided/low/single0.40/allin0.80/depth4/T_A",
+      "model": "fifth_avoided/low/single0.40/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.08130666666666668
+    },
+    "concentration_holdout/fifth_avoided/high/single0.10/allin0.20/depth3": {
+      "source_scenario": "fifth_avoided/high/single0.10/allin0.20/depth3/T_A",
+      "model": "fifth_avoided/high/single0.10/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.005000000000000001
+    },
+    "concentration_holdout/fifth_avoided/high/single0.10/allin0.20/depth4": {
+      "source_scenario": "fifth_avoided/high/single0.10/allin0.20/depth4/T_A",
+      "model": "fifth_avoided/high/single0.10/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.005000000000000001
+    },
+    "concentration_holdout/fifth_avoided/high/single0.10/allin0.80/depth3": {
+      "source_scenario": "fifth_avoided/high/single0.10/allin0.80/depth3/T_A",
+      "model": "fifth_avoided/high/single0.10/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.020000000000000004
+    },
+    "concentration_holdout/fifth_avoided/high/single0.10/allin0.80/depth4": {
+      "source_scenario": "fifth_avoided/high/single0.10/allin0.80/depth4/T_A",
+      "model": "fifth_avoided/high/single0.10/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.1,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.020000000000000004
+    },
+    "concentration_holdout/fifth_avoided/high/single0.25/allin0.20/depth3": {
+      "source_scenario": "fifth_avoided/high/single0.25/allin0.20/depth3/T_A",
+      "model": "fifth_avoided/high/single0.25/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.0125
+    },
+    "concentration_holdout/fifth_avoided/high/single0.25/allin0.20/depth4": {
+      "source_scenario": "fifth_avoided/high/single0.25/allin0.20/depth4/T_A",
+      "model": "fifth_avoided/high/single0.25/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.0125
+    },
+    "concentration_holdout/fifth_avoided/high/single0.25/allin0.80/depth3": {
+      "source_scenario": "fifth_avoided/high/single0.25/allin0.80/depth3/T_A",
+      "model": "fifth_avoided/high/single0.25/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.05
+    },
+    "concentration_holdout/fifth_avoided/high/single0.25/allin0.80/depth4": {
+      "source_scenario": "fifth_avoided/high/single0.25/allin0.80/depth4/T_A",
+      "model": "fifth_avoided/high/single0.25/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.25,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.05
+    },
+    "concentration_holdout/fifth_avoided/high/single0.40/allin0.20/depth3": {
+      "source_scenario": "fifth_avoided/high/single0.40/allin0.20/depth3/T_A",
+      "model": "fifth_avoided/high/single0.40/allin0.20",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.020000000000000004
+    },
+    "concentration_holdout/fifth_avoided/high/single0.40/allin0.20/depth4": {
+      "source_scenario": "fifth_avoided/high/single0.40/allin0.20/depth4/T_A",
+      "model": "fifth_avoided/high/single0.40/allin0.20",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.2,
+      "C_exact_100_fifth_mass": 0.020000000000000004
+    },
+    "concentration_holdout/fifth_avoided/high/single0.40/allin0.80/depth3": {
+      "source_scenario": "fifth_avoided/high/single0.40/allin0.80/depth3/T_A",
+      "model": "fifth_avoided/high/single0.40/allin0.80",
+      "depth": 3,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.08000000000000002
+    },
+    "concentration_holdout/fifth_avoided/high/single0.40/allin0.80/depth4": {
+      "source_scenario": "fifth_avoided/high/single0.40/allin0.80/depth4/T_A",
+      "model": "fifth_avoided/high/single0.40/allin0.80",
+      "depth": 4,
+      "reweighting": {
+        "saved_population": 0.6,
+        "C": 0.35,
+        "H": 0.05
+      },
+      "shares": {
+        "H": 0.05,
+        "C": 0.434,
+        "S": 0.336,
+        "TA": 0.144,
+        "TB": 0.036
+      },
+      "single_share": 0.4,
+      "all_in_fraction": 0.8,
+      "C_exact_100_fifth_mass": 0.08000000000000002
+    }
+  }
+}

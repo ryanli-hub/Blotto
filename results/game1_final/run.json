@@ -1,0 +1,15 @@
+{
+  "arguments": {
+    "seed": 2026110401,
+    "samples": 4000,
+    "responses_per_order": 8,
+    "output": "results/game1_final"
+  },
+  "elapsed_seconds": 30.693594000011217,
+  "training_scenarios": 80,
+  "fresh_scenarios": 160,
+  "stress_scenarios": 510,
+  "historical_scenarios": 5624,
+  "expanded_audit_seconds": 0.521581791981589,
+  "audit_scope": "All 17 frozen candidates targeted equally after main validation"
+}

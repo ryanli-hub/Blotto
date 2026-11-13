@@ -1,0 +1,40 @@
+{
+  "current": [
+    8,
+    9,
+    10,
+    11,
+    62
+  ],
+  "advanced_share_cap": 0.15,
+  "training_belief_shares": [
+    0.05,
+    0.15
+  ],
+  "training_slack": 0.1,
+  "validation_belief_shares": [
+    0.1,
+    0.25
+  ],
+  "validation_slack": 0.05,
+  "response_samples": 48,
+  "training_seed": 20261107,
+  "validation_seeds": [
+    20270117,
+    20390117
+  ],
+  "C_samples": 4000,
+  "development_bases": "all 74 previously observed populations",
+  "main_objective": "minimax regret with total added peer/anticipator share from 0 to 15 percent",
+  "guarded_objective": "same objective plus direct counters to the previous current allocation",
+  "validation_shared_peers": "current allocation and all legal one-soldier transfers, equal weights",
+  "feedback_belief_share": 0.15,
+  "feedback_peer_pool": "equal mixture of distinct current, main winner, and guarded winner allocations",
+  "share_curve": [
+    0,
+    0.05,
+    0.1,
+    0.15,
+    0.25
+  ]
+}

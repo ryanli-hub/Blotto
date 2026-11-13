@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local operating-system and editor files
+.DS_Store
+._*
+Thumbs.db
+*.swp
+*.swo
+
+# Local credentials; keep a shareable example if one is added
+.env
+.env.*
+!.env.example

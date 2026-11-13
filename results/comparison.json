@@ -1,0 +1,200 @@
+{
+  "original_search": {
+    "allocation": [
+      1,
+      2,
+      2,
+      40,
+      55
+    ],
+    "max_regret": 0.09306250000000382,
+    "scenarios": [
+      "heuristic_heavy",
+      "balanced",
+      "concentrated_heavy",
+      "equilibrium_heavy",
+      "equilibrium",
+      "endogenous_10H",
+      "endogenous_25H",
+      "endogenous_25C"
+    ],
+    "scores": [
+      9.073124999999933,
+      8.503218749999942,
+      8.941237499999854,
+      7.873968749999965,
+      7.4999999999999964,
+      7.55047314817171,
+      7.654612980769214,
+      7.662326562499953
+    ],
+    "optimal_scores": [
+      9.166187499999937,
+      8.510593749999947,
+      9.014899999999855,
+      7.8831249999999615,
+      7.500000000000046,
+      7.550473148290755,
+      7.654612980769222,
+      7.662326562499966
+    ],
+    "allocations_examined": 4598126
+  },
+  "expanded_search": {
+    "allocation": [
+      2,
+      2,
+      3,
+      39,
+      54
+    ],
+    "max_regret": 0.3274999999999988,
+    "scenarios": [
+      "heuristic_heavy",
+      "balanced",
+      "concentrated_heavy",
+      "equilibrium_heavy",
+      "equilibrium",
+      "endogenous_10H",
+      "endogenous_25H",
+      "endogenous_25C",
+      "heuristic_only",
+      "concentrated_only"
+    ],
+    "scores": [
+      9.091999999999935,
+      8.497218749999943,
+      8.864737499999855,
+      7.860418749999969,
+      7.500000000000002,
+      7.550473148164713,
+      7.654612980769213,
+      7.662326562499953,
+      9.87912499999997,
+      9.109749999999792
+    ],
+    "optimal_scores": [
+      9.166187499999937,
+      8.510593749999947,
+      9.014899999999855,
+      7.8831249999999615,
+      7.500000000000046,
+      7.550473148290755,
+      7.654612980769222,
+      7.662326562499966,
+      10.201999999999913,
+      9.437249999999791
+    ],
+    "allocations_examined": 4598126
+  },
+  "candidates": {
+    "teammate": {
+      "allocation": [
+        2,
+        16,
+        1,
+        37,
+        44
+      ],
+      "worst_case_score": 2.0,
+      "scores": {
+        "heuristic_heavy": 8.493374999999931,
+        "balanced": 8.119531249999934,
+        "concentrated_heavy": 8.337462499999852,
+        "equilibrium_heavy": 7.722181249999958,
+        "equilibrium": 7.499999999999985,
+        "endogenous_10H": 7.550473148172923,
+        "endogenous_25H": 7.643975961538441,
+        "endogenous_25C": 7.66232656249995,
+        "heuristic_only": 8.99537499999997,
+        "concentrated_only": 8.482749999999793
+      },
+      "regrets": {
+        "heuristic_heavy": 0.6728125000000063,
+        "balanced": 0.39106250000001275,
+        "concentrated_heavy": 0.6774375000000035,
+        "equilibrium_heavy": 0.16094375000000394,
+        "equilibrium": 6.128431095930864e-14,
+        "endogenous_10H": 1.1783196640635651e-10,
+        "endogenous_25H": 0.010637019230780531,
+        "endogenous_25C": 1.5987211554602254e-14,
+        "heuristic_only": 1.206624999999942,
+        "concentrated_only": 0.9544999999999977
+      },
+      "original_max_regret": 0.6774375000000035,
+      "expanded_max_regret": 1.206624999999942
+    },
+    "new_minimax_regret": {
+      "allocation": [
+        1,
+        2,
+        2,
+        40,
+        55
+      ],
+      "worst_case_score": 3.0,
+      "scores": {
+        "heuristic_heavy": 9.073124999999933,
+        "balanced": 8.503218749999942,
+        "concentrated_heavy": 8.941237499999854,
+        "equilibrium_heavy": 7.873968749999965,
+        "equilibrium": 7.4999999999999964,
+        "endogenous_10H": 7.55047314817171,
+        "endogenous_25H": 7.654612980769214,
+        "endogenous_25C": 7.662326562499953,
+        "heuristic_only": 9.779624999999971,
+        "concentrated_only": 9.233249999999792
+      },
+      "regrets": {
+        "heuristic_heavy": 0.09306250000000382,
+        "balanced": 0.007375000000005016,
+        "concentrated_heavy": 0.07366250000000107,
+        "equilibrium_heavy": 0.009156249999996646,
+        "equilibrium": 4.973799150320701e-14,
+        "endogenous_10H": 1.1904521812766689e-10,
+        "endogenous_25H": 7.993605777301127e-15,
+        "endogenous_25C": 1.3322676295501878e-14,
+        "heuristic_only": 0.422374999999942,
+        "concentrated_only": 0.20399999999999885
+      },
+      "original_max_regret": 0.09306250000000382,
+      "expanded_max_regret": 0.422374999999942
+    },
+    "expanded_minimax_regret": {
+      "allocation": [
+        2,
+        2,
+        3,
+        39,
+        54
+      ],
+      "worst_case_score": 3.0,
+      "scores": {
+        "heuristic_heavy": 9.091999999999935,
+        "balanced": 8.497218749999943,
+        "concentrated_heavy": 8.864737499999855,
+        "equilibrium_heavy": 7.860418749999969,
+        "equilibrium": 7.500000000000002,
+        "endogenous_10H": 7.550473148164713,
+        "endogenous_25H": 7.654612980769213,
+        "endogenous_25C": 7.662326562499953,
+        "heuristic_only": 9.87912499999997,
+        "concentrated_only": 9.109749999999792
+      },
+      "regrets": {
+        "heuristic_heavy": 0.07418750000000252,
+        "balanced": 0.013375000000003467,
+        "concentrated_heavy": 0.15016250000000042,
+        "equilibrium_heavy": 0.0227062499999926,
+        "equilibrium": 4.440892098500626e-14,
+        "endogenous_10H": 1.2604228771806447e-10,
+        "endogenous_25H": 8.881784197001252e-15,
+        "endogenous_25C": 1.3322676295501878e-14,
+        "heuristic_only": 0.32287499999994296,
+        "concentrated_only": 0.3274999999999988
+      },
+      "original_max_regret": 0.15016250000000042,
+      "expanded_max_regret": 0.3274999999999988
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "stage": "Reviewed choice among the 17 frozen candidates after fresh validation and audits",
+  "recommended_candidate": "avoid_fifth_likely/guard_0.10",
+  "allocation": [
+    3,
+    8,
+    13,
+    11,
+    65
+  ],
+  "training_primary": "balanced/mean",
+  "fresh_mean_leader": "avoid_fifth_likely/mean",
+  "reasons": [
+    "Within 0.008 points of the highest fresh mean among frozen candidates, with lower fresh maximum regret.",
+    "Higher fresh mean and worst-20-percent mean than the incumbent under all six tested family priors and both independent suites.",
+    "Smaller historical maximum regret than the fresh mean leader, preserving more coverage of the earlier opponent model.",
+    "Fair 510-case audit favors the fresh mean leader on mean, tail, and maximum regret; the recommended candidate has a higher minimum.",
+    "Historical maximum regret remains better for the incumbent: 2.647 versus 2.888."
+  ],
+  "scores": {
+    "training": {
+      "incumbent": {
+        "weighted_mean": 8.529896302083337,
+        "minimum": 7.0397770833333375,
+        "lower_tail_mean": 7.337013020833334,
+        "maximum_regret": 3.2192903209728865,
+        "mean_regret": 1.0727361695892814
+      },
+      "balanced/mean": {
+        "weighted_mean": 9.209105122303303,
+        "minimum": 7.9494372535345885,
+        "lower_tail_mean": 8.416078495280267,
+        "maximum_regret": 1.813362604419952,
+        "mean_regret": 0.3935273493693131
+      },
+      "avoid_fifth_likely/mean": {
+        "weighted_mean": 9.173292638618921,
+        "minimum": 8.047372091806219,
+        "lower_tail_mean": 8.37945123137211,
+        "maximum_regret": 1.7136215161483221,
+        "mean_regret": 0.4293398330536953
+      },
+      "avoid_fifth_likely/guard_0.10": {
+        "weighted_mean": 9.021834315011636,
+        "minimum": 7.93236666666667,
+        "lower_tail_mean": 8.245429809279873,
+        "maximum_regret": 1.8168337966049606,
+        "mean_regret": 0.5807981566609797
+      }
+    },
+    "validation": {
+      "incumbent": {
+        "weighted_mean": 8.98172978515625,
+        "minimum": 7.185130625000004,
+        "lower_tail_mean": 7.936268437499998,
+        "maximum_regret": 1.8598498958333307,
+        "mean_regret": 0.6387271008659638
+      },
+      "balanced/mean": {
+        "weighted_mean": 9.053061269128136,
+        "minimum": 7.81975489665058,
+        "lower_tail_mean": 8.362830121055639,
+        "maximum_regret": 1.8886509366827573,
+        "mean_regret": 0.5673956168940796
+      },
+      "avoid_fifth_likely/mean": {
+        "weighted_mean": 9.121684318913134,
+        "minimum": 7.882640208333335,
+        "lower_tail_mean": 8.406628345991907,
+        "maximum_regret": 1.7697719709691242,
+        "mean_regret": 0.4987725671090831
+      },
+      "avoid_fifth_likely/guard_0.10": {
+        "weighted_mean": 9.114469198815637,
+        "minimum": 7.75396791666667,
+        "lower_tail_mean": 8.338705446550932,
+        "maximum_regret": 1.4295002644773174,
+        "mean_regret": 0.5059876872065793
+      }
+    },
+    "stress": {
+      "incumbent": {
+        "weighted_mean": 8.565416488013172,
+        "minimum": 7.486642740885419,
+        "lower_tail_mean": 7.90440652473003,
+        "maximum_regret": 2.252033533528648,
+        "mean_regret": 0.8604781775586823
+      },
+      "balanced/mean": {
+        "weighted_mean": 8.864893622607479,
+        "minimum": 7.7066144980904925,
+        "lower_tail_mean": 8.278982950723423,
+        "maximum_regret": 1.5419946826171884,
+        "mean_regret": 0.5610010429643788
+      },
+      "avoid_fifth_likely/mean": {
+        "weighted_mean": 8.8591620267277,
+        "minimum": 7.66826085332208,
+        "lower_tail_mean": 8.226833429431744,
+        "maximum_regret": 1.7986428499348976,
+        "mean_regret": 0.5667326388441564
+      },
+      "avoid_fifth_likely/guard_0.10": {
+        "weighted_mean": 8.747745011777209,
+        "minimum": 7.869319771527991,
+        "lower_tail_mean": 8.107967417661715,
+        "maximum_regret": 1.9306416520182292,
+        "mean_regret": 0.6781496537946481
+      }
+    },
+    "historical": {
+      "incumbent": {
+        "weighted_mean": 9.171449956767155,
+        "minimum": 7.036505946180545,
+        "lower_tail_mean": 8.539514448247278,
+        "maximum_regret": 2.6474346875000005,
+        "mean_regret": 0.893900017431358
+      },
+      "balanced/mean": {
+        "weighted_mean": 8.717272705918937,
+        "minimum": 7.447861458333326,
+        "lower_tail_mean": 8.154380260843862,
+        "maximum_regret": 3.3706718749999975,
+        "mean_regret": 1.348077268279578
+      },
+      "avoid_fifth_likely/mean": {
+        "weighted_mean": 8.744681840448177,
+        "minimum": 7.515853871527771,
+        "lower_tail_mean": 8.231429680113044,
+        "maximum_regret": 3.316031249999998,
+        "mean_regret": 1.3206681337503414
+      },
+      "avoid_fifth_likely/guard_0.10": {
+        "weighted_mean": 9.037341891192769,
+        "minimum": 7.604530833333323,
+        "lower_tail_mean": 8.541893458498262,
+        "maximum_regret": 2.888232590804222,
+        "mean_regret": 1.0280080830057456
+      }
+    }
+  },
+  "evidence_files": [
+    "selection.json",
+    "search.json",
+    "validation.json",
+    "validation1.json",
+    "validation2.json",
+    "stress.json",
+    "historical.json",
+    "diagnostics.json"
+  ]
+}

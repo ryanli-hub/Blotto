@@ -1,0 +1,413 @@
+{
+  "base": {
+    "teammate": {
+      "allocation": [
+        0,
+        1,
+        36,
+        0,
+        63
+      ],
+      "maximum_estimated_regret": 6.520855,
+      "worst_regret_scenario": "balanced/low/single0.40/allin0.20/depth4/T_A",
+      "worst_gap_95_halfwidth": 0.011416705784101058,
+      "minimum_score": 1.52515625,
+      "maximum_score": 4.81146,
+      "mean_across_scenarios": 3.3864385329861113
+    },
+    "user": {
+      "allocation": [
+        0,
+        0,
+        49,
+        51,
+        0
+      ],
+      "maximum_estimated_regret": 5.72808875,
+      "worst_regret_scenario": "fifth_crowded/low/single0.40/allin0.80/depth4/T_B",
+      "worst_gap_95_halfwidth": 0.013444937315515607,
+      "minimum_score": 1.89951,
+      "maximum_score": 5.65655875,
+      "mean_across_scenarios": 2.641917421875
+    },
+    "game1": {
+      "allocation": [
+        8,
+        9,
+        10,
+        11,
+        62
+      ],
+      "maximum_estimated_regret": 5.1815475,
+      "worst_regret_scenario": "balanced/high/single0.10/allin0.80/depth3/T_A",
+      "worst_gap_95_halfwidth": 0.0189069291249152,
+      "minimum_score": 2.5851275,
+      "maximum_score": 5.2940625,
+      "mean_across_scenarios": 3.9618786805555555
+    },
+    "previous_compromise": {
+      "allocation": [
+        6,
+        37,
+        50,
+        7,
+        0
+      ],
+      "maximum_estimated_regret": 3.389475,
+      "worst_regret_scenario": "fifth_avoided/low/single0.25/allin0.20/depth4/T_A",
+      "worst_gap_95_halfwidth": 0.019716714920747606,
+      "minimum_score": 3.8436725,
+      "maximum_score": 6.54646,
+      "mean_across_scenarios": 5.239401961805556
+    },
+    "all_fifth": {
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        100
+      ],
+      "maximum_estimated_regret": 3.07447125,
+      "worst_regret_scenario": "balanced/high/single0.10/allin0.80/depth3/T_A",
+      "worst_gap_95_halfwidth": 0.013286756134261524,
+      "minimum_score": 4.86486,
+      "maximum_score": 6.41963625,
+      "mean_across_scenarios": 5.615351302083333
+    },
+    "castles_4_5": {
+      "allocation": [
+        0,
+        0,
+        0,
+        49,
+        51
+      ],
+      "maximum_estimated_regret": 6.4575875,
+      "worst_regret_scenario": "fifth_avoided/low/single0.10/allin0.80/depth3/T_A",
+      "worst_gap_95_halfwidth": 0.013943354823648339,
+      "minimum_score": 1.437955,
+      "maximum_score": 3.781305,
+      "mean_across_scenarios": 2.7904638888888886
+    },
+    "central_specialist": {
+      "allocation": [
+        13,
+        0,
+        0,
+        0,
+        87
+      ],
+      "maximum_estimated_regret": 4.0972425,
+      "worst_regret_scenario": "fifth_avoided/low/single0.25/allin0.20/depth4/T_A",
+      "worst_gap_95_halfwidth": 0.019198074228900148,
+      "minimum_score": 3.3307725,
+      "maximum_score": 7.34463,
+      "mean_across_scenarios": 5.913006684027778
+    },
+    "round1_robust": {
+      "allocation": [
+        0,
+        5,
+        0,
+        5,
+        90
+      ],
+      "maximum_estimated_regret": 3.2452325,
+      "worst_regret_scenario": "fifth_avoided/high/single0.40/allin0.20/depth3/T_A",
+      "worst_gap_95_halfwidth": 0.019507707458682556,
+      "minimum_score": 3.9566875,
+      "maximum_score": 6.8790625,
+      "mean_across_scenarios": 6.052934800347222
+    },
+    "round2_robust": {
+      "allocation": [
+        16,
+        17,
+        54,
+        8,
+        5
+      ],
+      "maximum_estimated_regret": 3.49993,
+      "worst_regret_scenario": "balanced/high/single0.10/allin0.80/depth3/T_A",
+      "worst_gap_95_halfwidth": 0.016514498133129076,
+      "minimum_score": 4.540605,
+      "maximum_score": 7.968185,
+      "mean_across_scenarios": 6.53580056423611
+    }
+  },
+  "stress": {
+    "teammate": {
+      "allocation": [
+        0,
+        1,
+        36,
+        0,
+        63
+      ],
+      "maximum_estimated_regret": 5.17023125,
+      "worst_regret_scenario": "stress/balanced/round1_robust/copy0.15",
+      "worst_gap_95_halfwidth": 0.01656848541251935,
+      "minimum_score": 1.81547875,
+      "maximum_score": 3.525755,
+      "mean_across_scenarios": 2.666929270833334
+    },
+    "user": {
+      "allocation": [
+        0,
+        0,
+        49,
+        51,
+        0
+      ],
+      "maximum_estimated_regret": 4.8563225,
+      "worst_regret_scenario": "stress/fifth_avoided/round2_robust/anticipate0.15",
+      "worst_gap_95_halfwidth": 0.017505530821324288,
+      "minimum_score": 1.93980375,
+      "maximum_score": 4.1068075,
+      "mean_across_scenarios": 2.664611597222222
+    },
+    "game1": {
+      "allocation": [
+        8,
+        9,
+        10,
+        11,
+        62
+      ],
+      "maximum_estimated_regret": 3.4362675,
+      "worst_regret_scenario": "stress/fifth_avoided/all_fifth/copy0.15",
+      "worst_gap_95_halfwidth": 0.01820828829731892,
+      "minimum_score": 3.23127,
+      "maximum_score": 4.2056025,
+      "mean_across_scenarios": 3.5600650694444442
+    },
+    "previous_compromise": {
+      "allocation": [
+        6,
+        37,
+        50,
+        7,
+        0
+      ],
+      "maximum_estimated_regret": 4.6963075,
+      "worst_regret_scenario": "stress/fifth_avoided/round2_robust/copy0.15",
+      "worst_gap_95_halfwidth": 0.019701180184850522,
+      "minimum_score": 2.294955,
+      "maximum_score": 5.4314275,
+      "mean_across_scenarios": 3.805873888888889
+    },
+    "all_fifth": {
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        100
+      ],
+      "maximum_estimated_regret": 2.94599375,
+      "worst_regret_scenario": "stress/fifth_crowded/all_fifth/copy0.15",
+      "worst_gap_95_halfwidth": 0.0172570736989593,
+      "minimum_score": 3.68109875,
+      "maximum_score": 5.33464875,
+      "mean_across_scenarios": 4.960170347222222
+    },
+    "castles_4_5": {
+      "allocation": [
+        0,
+        0,
+        0,
+        49,
+        51
+      ],
+      "maximum_estimated_regret": 4.681425,
+      "worst_regret_scenario": "stress/balanced/round1_robust/copy0.15",
+      "worst_gap_95_halfwidth": 0.01607301415916367,
+      "minimum_score": 2.1903825,
+      "maximum_score": 3.458495,
+      "mean_across_scenarios": 2.6996912500000003
+    },
+    "central_specialist": {
+      "allocation": [
+        13,
+        0,
+        0,
+        0,
+        87
+      ],
+      "maximum_estimated_regret": 4.1340725,
+      "worst_regret_scenario": "stress/fifth_avoided/all_fifth/copy0.15",
+      "worst_gap_95_halfwidth": 0.019825508089919237,
+      "minimum_score": 2.6170625,
+      "maximum_score": 5.3773525,
+      "mean_across_scenarios": 4.275282465277777
+    },
+    "round1_robust": {
+      "allocation": [
+        0,
+        5,
+        0,
+        5,
+        90
+      ],
+      "maximum_estimated_regret": 3.348825,
+      "worst_regret_scenario": "stress/fifth_avoided/all_fifth/copy0.15",
+      "worst_gap_95_halfwidth": 0.019238487037651183,
+      "minimum_score": 3.40231,
+      "maximum_score": 5.8785125,
+      "mean_across_scenarios": 5.0153820486111105
+    },
+    "round2_robust": {
+      "allocation": [
+        16,
+        17,
+        54,
+        8,
+        5
+      ],
+      "maximum_estimated_regret": 2.97627,
+      "worst_regret_scenario": "stress/fifth_avoided/round2_robust/copy0.15",
+      "worst_gap_95_halfwidth": 0.018120347666433292,
+      "minimum_score": 3.9989,
+      "maximum_score": 6.6994275,
+      "mean_across_scenarios": 5.126682013888889
+    }
+  },
+  "belief": {
+    "teammate": {
+      "allocation": [
+        0,
+        1,
+        36,
+        0,
+        63
+      ],
+      "maximum_estimated_regret": 4.80198375,
+      "worst_regret_scenario": "belief/fifth_crowded/wrong1.00",
+      "worst_gap_95_halfwidth": 0.01878195750278937,
+      "minimum_score": 2.26183875,
+      "maximum_score": 3.867645,
+      "mean_across_scenarios": 3.03602
+    },
+    "user": {
+      "allocation": [
+        0,
+        0,
+        49,
+        51,
+        0
+      ],
+      "maximum_estimated_regret": 5.03597125,
+      "worst_regret_scenario": "belief/fifth_avoided/wrong1.00",
+      "worst_gap_95_halfwidth": 0.01693772861638882,
+      "minimum_score": 1.81901875,
+      "maximum_score": 3.05247375,
+      "mean_across_scenarios": 2.3561993749999997
+    },
+    "game1": {
+      "allocation": [
+        8,
+        9,
+        10,
+        11,
+        62
+      ],
+      "maximum_estimated_regret": 3.8044225,
+      "worst_regret_scenario": "belief/fifth_crowded/wrong1.00",
+      "worst_gap_95_halfwidth": 0.019815427833713636,
+      "minimum_score": 3.2594,
+      "maximum_score": 4.2830125,
+      "mean_across_scenarios": 3.6919199999999996
+    },
+    "previous_compromise": {
+      "allocation": [
+        6,
+        37,
+        50,
+        7,
+        0
+      ],
+      "maximum_estimated_regret": 3.3703475,
+      "worst_regret_scenario": "belief/fifth_avoided/wrong1.00",
+      "worst_gap_95_halfwidth": 0.0206143458191033,
+      "minimum_score": 3.453915,
+      "maximum_score": 4.132855,
+      "mean_across_scenarios": 3.7970458333333332
+    },
+    "all_fifth": {
+      "allocation": [
+        0,
+        0,
+        0,
+        0,
+        100
+      ],
+      "maximum_estimated_regret": 2.30369375,
+      "worst_regret_scenario": "belief/fifth_crowded/wrong1.00",
+      "worst_gap_95_halfwidth": 0.016686355434003198,
+      "minimum_score": 4.76012875,
+      "maximum_score": 5.4041325,
+      "mean_across_scenarios": 5.078741666666667
+    },
+    "castles_4_5": {
+      "allocation": [
+        0,
+        0,
+        0,
+        49,
+        51
+      ],
+      "maximum_estimated_regret": 4.6952125,
+      "worst_regret_scenario": "belief/fifth_crowded/wrong1.00",
+      "worst_gap_95_halfwidth": 0.017296953129310854,
+      "minimum_score": 2.36861,
+      "maximum_score": 3.31796,
+      "mean_across_scenarios": 2.7194800000000003
+    },
+    "central_specialist": {
+      "allocation": [
+        13,
+        0,
+        0,
+        0,
+        87
+      ],
+      "maximum_estimated_regret": 3.5789625,
+      "worst_regret_scenario": "belief/fifth_crowded/wrong1.00",
+      "worst_gap_95_halfwidth": 0.020378543850399028,
+      "minimum_score": 3.48486,
+      "maximum_score": 6.2467275,
+      "mean_across_scenarios": 5.0118816666666675
+    },
+    "round1_robust": {
+      "allocation": [
+        0,
+        5,
+        0,
+        5,
+        90
+      ],
+      "maximum_estimated_regret": 2.90213,
+      "worst_regret_scenario": "belief/fifth_crowded/wrong1.00",
+      "worst_gap_95_halfwidth": 0.019028201028483925,
+      "minimum_score": 4.1616925,
+      "maximum_score": 6.008885,
+      "mean_across_scenarios": 5.280680416666667
+    },
+    "round2_robust": {
+      "allocation": [
+        16,
+        17,
+        54,
+        8,
+        5
+      ],
+      "maximum_estimated_regret": 2.083945,
+      "worst_regret_scenario": "belief/fifth_crowded/wrong1.00",
+      "worst_gap_95_halfwidth": 0.019844161595405408,
+      "minimum_score": 4.9798775,
+      "maximum_score": 5.8604075,
+      "mean_across_scenarios": 5.489770833333334
+    }
+  }
+}

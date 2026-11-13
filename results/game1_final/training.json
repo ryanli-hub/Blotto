@@ -1,0 +1,1095 @@
+{
+  "scenario_count": 80,
+  "candidates": {
+    "teammate": [
+      2,
+      16,
+      1,
+      37,
+      44
+    ],
+    "original": [
+      1,
+      14,
+      1,
+      37,
+      47
+    ],
+    "previous_broad": [
+      2,
+      2,
+      3,
+      39,
+      54
+    ],
+    "previous_search": [
+      2,
+      16,
+      10,
+      12,
+      60
+    ],
+    "incumbent": [
+      8,
+      9,
+      10,
+      11,
+      62
+    ],
+    "balanced/mean": [
+      3,
+      3,
+      13,
+      13,
+      68
+    ],
+    "balanced/tail": [
+      0,
+      8,
+      13,
+      11,
+      68
+    ],
+    "balanced/maximin": [
+      0,
+      8,
+      12,
+      11,
+      69
+    ],
+    "balanced/minimax_regret": [
+      3,
+      9,
+      14,
+      6,
+      68
+    ],
+    "concentration_likely/tail": [
+      3,
+      3,
+      13,
+      12,
+      69
+    ],
+    "calculation_likely/mean": [
+      3,
+      2,
+      14,
+      13,
+      68
+    ],
+    "calculation_likely/tail": [
+      2,
+      3,
+      14,
+      12,
+      69
+    ],
+    "original_likely/mean": [
+      4,
+      3,
+      13,
+      13,
+      67
+    ],
+    "T_free_likely/mean": [
+      2,
+      3,
+      14,
+      13,
+      68
+    ],
+    "T_free_likely/tail": [
+      0,
+      6,
+      13,
+      13,
+      68
+    ],
+    "avoid_fifth_likely/mean": [
+      4,
+      3,
+      14,
+      12,
+      67
+    ],
+    "avoid_fifth_likely/guard_0.10": [
+      3,
+      8,
+      13,
+      11,
+      65
+    ]
+  },
+  "priors": {
+    "balanced": {
+      "metrics": {
+        "teammate": {
+          "weighted_mean": 6.787745963854194,
+          "minimum": 6.024117368028866,
+          "lower_tail_mean": 6.207381052874654,
+          "maximum_regret": 4.44613717742568,
+          "mean_regret": 2.8148865078184224
+        },
+        "original": {
+          "weighted_mean": 6.877891649544209,
+          "minimum": 6.133979003255158,
+          "lower_tail_mean": 6.405745928405639,
+          "maximum_regret": 4.336275542199388,
+          "mean_regret": 2.7247408221284086
+        },
+        "previous_broad": {
+          "weighted_mean": 7.472300871066075,
+          "minimum": 6.3018406840732615,
+          "lower_tail_mean": 6.5183289357866325,
+          "maximum_regret": 4.088726361381285,
+          "mean_regret": 2.130331600606542
+        },
+        "previous_search": {
+          "weighted_mean": 8.41192713560255,
+          "minimum": 7.06819479166667,
+          "lower_tail_mean": 7.376634505279826,
+          "maximum_regret": 3.035001518746567,
+          "mean_regret": 1.1907053360700675
+        },
+        "incumbent": {
+          "weighted_mean": 8.529896302083337,
+          "minimum": 7.0397770833333375,
+          "lower_tail_mean": 7.337013020833334,
+          "maximum_regret": 3.2192903209728865,
+          "mean_regret": 1.0727361695892814
+        },
+        "balanced/mean": {
+          "weighted_mean": 9.209105122303303,
+          "minimum": 7.9494372535345885,
+          "lower_tail_mean": 8.416078495280267,
+          "maximum_regret": 1.813362604419952,
+          "mean_regret": 0.3935273493693131
+        },
+        "balanced/tail": {
+          "weighted_mean": 9.055193487215911,
+          "minimum": 8.180805587121213,
+          "lower_tail_mean": 8.465876805160987,
+          "maximum_regret": 1.4471234374999984,
+          "mean_regret": 0.5474389844567052
+        },
+        "balanced/maximin": {
+          "weighted_mean": 8.980962992424246,
+          "minimum": 8.249322774621211,
+          "lower_tail_mean": 8.421955214251895,
+          "maximum_regret": 1.6358072916666675,
+          "mean_regret": 0.6216694792483718
+        },
+        "balanced/minimax_regret": {
+          "weighted_mean": 8.866624445219971,
+          "minimum": 7.822016941034592,
+          "lower_tail_mean": 8.272724589030268,
+          "maximum_regret": 1.2866001044199518,
+          "mean_regret": 0.7360080264526465
+        },
+        "concentration_likely/tail": {
+          "weighted_mean": 9.16620053896997,
+          "minimum": 7.951687253534589,
+          "lower_tail_mean": 8.423447049967768,
+          "maximum_regret": 1.8108313544199524,
+          "mean_regret": 0.43643193270264635
+        },
+        "calculation_likely/mean": {
+          "weighted_mean": 9.193602049386637,
+          "minimum": 7.88221850353459,
+          "lower_tail_mean": 8.377129341634435,
+          "maximum_regret": 1.8870501044199521,
+          "mean_regret": 0.4090304222859798
+        },
+        "calculation_likely/tail": {
+          "weighted_mean": 9.1461336173119,
+          "minimum": 7.90290055898992,
+          "lower_tail_mean": 8.404890658387014,
+          "maximum_regret": 1.8631055489646222,
+          "mean_regret": 0.4564988543607176
+        },
+        "original_likely/mean": {
+          "weighted_mean": 9.193050164660587,
+          "minimum": 8.022022091806218,
+          "lower_tail_mean": 8.386184401945027,
+          "maximum_regret": 1.7393277661483229,
+          "mean_regret": 0.40958230701202863
+        },
+        "T_free_likely/mean": {
+          "weighted_mean": 9.189038200645232,
+          "minimum": 7.90065055898992,
+          "lower_tail_mean": 8.395320150574515,
+          "maximum_regret": 1.8656367989646219,
+          "mean_regret": 0.4135942710273841
+        },
+        "T_free_likely/tail": {
+          "weighted_mean": 9.087569320549244,
+          "minimum": 7.98895871212121,
+          "lower_tail_mean": 8.410689784564395,
+          "maximum_regret": 1.7577265624999985,
+          "mean_regret": 0.5150631511233719
+        },
+        "avoid_fifth_likely/mean": {
+          "weighted_mean": 9.173292638618921,
+          "minimum": 8.047372091806219,
+          "lower_tail_mean": 8.37945123137211,
+          "maximum_regret": 1.7136215161483221,
+          "mean_regret": 0.4293398330536953
+        },
+        "avoid_fifth_likely/guard_0.10": {
+          "weighted_mean": 9.021834315011636,
+          "minimum": 7.93236666666667,
+          "lower_tail_mean": 8.245429809279873,
+          "maximum_regret": 1.8168337966049606,
+          "mean_regret": 0.5807981566609797
+        }
+      },
+      "choices_among_frozen": {
+        "mean": "balanced/mean",
+        "maximin": "balanced/maximin",
+        "tail": "balanced/tail",
+        "minimax_regret": "balanced/minimax_regret",
+        "mean_with_tail_guard": "balanced/mean"
+      }
+    },
+    "concentration_likely": {
+      "metrics": {
+        "teammate": {
+          "weighted_mean": 6.947105211122821,
+          "minimum": 6.024117368028866,
+          "lower_tail_mean": 6.344733427944131,
+          "maximum_regret": 4.44613717742568,
+          "mean_regret": 2.5281196208831265
+        },
+        "original": {
+          "weighted_mean": 7.040234612263939,
+          "minimum": 6.133979003255158,
+          "lower_tail_mean": 6.498201724914445,
+          "maximum_regret": 4.336275542199388,
+          "mean_regret": 2.4349902197420086
+        },
+        "previous_broad": {
+          "weighted_mean": 7.6656442189125205,
+          "minimum": 6.3018406840732615,
+          "lower_tail_mean": 6.624689327285373,
+          "maximum_regret": 4.088726361381285,
+          "mean_regret": 1.8095806130934278
+        },
+        "previous_search": {
+          "weighted_mean": 8.430799430508337,
+          "minimum": 7.06819479166667,
+          "lower_tail_mean": 7.5832013794816655,
+          "maximum_regret": 3.035001518746567,
+          "mean_regret": 1.04442540149761
+        },
+        "incumbent": {
+          "weighted_mean": 8.53919510091146,
+          "minimum": 7.0397770833333375,
+          "lower_tail_mean": 7.583064762369793,
+          "maximum_regret": 3.2192903209728865,
+          "mean_regret": 0.9360297310944883
+        },
+        "balanced/mean": {
+          "weighted_mean": 9.161136800421286,
+          "minimum": 7.9494372535345885,
+          "lower_tail_mean": 8.420698088219389,
+          "maximum_regret": 1.813362604419952,
+          "mean_regret": 0.31408803158466136
+        },
+        "balanced/tail": {
+          "weighted_mean": 9.014672927024149,
+          "minimum": 8.180805587121213,
+          "lower_tail_mean": 8.405966731031015,
+          "maximum_regret": 1.4471234374999984,
+          "mean_regret": 0.46055190498179843
+        },
+        "balanced/maximin": {
+          "weighted_mean": 8.977063535748108,
+          "minimum": 8.249322774621211,
+          "lower_tail_mean": 8.411939777906015,
+          "maximum_regret": 1.6358072916666675,
+          "mean_regret": 0.49816129625784006
+        },
+        "balanced/minimax_regret": {
+          "weighted_mean": 8.799335058884829,
+          "minimum": 7.822016941034592,
+          "lower_tail_mean": 8.143753923180327,
+          "maximum_regret": 1.2866001044199518,
+          "mean_regret": 0.6758897731211198
+        },
+        "concentration_likely/tail": {
+          "weighted_mean": 9.147226855759827,
+          "minimum": 7.951687253534589,
+          "lower_tail_mean": 8.451893487658143,
+          "maximum_regret": 1.8108313544199524,
+          "mean_regret": 0.3279979762461197
+        },
+        "calculation_likely/mean": {
+          "weighted_mean": 9.113250553676494,
+          "minimum": 7.88221850353459,
+          "lower_tail_mean": 8.36198743555012,
+          "maximum_regret": 1.8870501044199521,
+          "mean_regret": 0.36197427832945317
+        },
+        "calculation_likely/tail": {
+          "weighted_mean": 9.106899882550533,
+          "minimum": 7.90290055898992,
+          "lower_tail_mean": 8.421621421894356,
+          "maximum_regret": 1.8631055489646222,
+          "mean_regret": 0.3683249494554156
+        },
+        "original_likely/mean": {
+          "weighted_mean": 9.12661043812145,
+          "minimum": 8.022022091806218,
+          "lower_tail_mean": 8.367472131834383,
+          "maximum_regret": 1.7393277661483229,
+          "mean_regret": 0.3486143938844979
+        },
+        "T_free_likely/mean": {
+          "weighted_mean": 9.120809827211989,
+          "minimum": 7.90065055898992,
+          "lower_tail_mean": 8.384081700214669,
+          "maximum_regret": 1.8656367989646219,
+          "mean_regret": 0.3544150047939571
+        },
+        "T_free_likely/tail": {
+          "weighted_mean": 9.044601572857482,
+          "minimum": 7.98895871212121,
+          "lower_tail_mean": 8.428501215894297,
+          "maximum_regret": 1.7577265624999985,
+          "mean_regret": 0.4306232591484652
+        },
+        "avoid_fifth_likely/mean": {
+          "weighted_mean": 9.099205001923533,
+          "minimum": 8.047372091806219,
+          "lower_tail_mean": 8.349978194659903,
+          "maximum_regret": 1.7136215161483221,
+          "mean_regret": 0.3760198300824144
+        },
+        "avoid_fifth_likely/guard_0.10": {
+          "weighted_mean": 8.97582687203587,
+          "minimum": 7.93236666666667,
+          "lower_tail_mean": 8.268328108687895,
+          "maximum_regret": 1.8168337966049606,
+          "mean_regret": 0.499397959970078
+        }
+      },
+      "choices_among_frozen": {
+        "mean": "balanced/mean",
+        "maximin": "balanced/maximin",
+        "tail": "concentration_likely/tail",
+        "minimax_regret": "balanced/minimax_regret",
+        "mean_with_tail_guard": "balanced/mean"
+      }
+    },
+    "calculation_likely": {
+      "metrics": {
+        "teammate": {
+          "weighted_mean": 6.671578795107195,
+          "minimum": 6.024117368028866,
+          "lower_tail_mean": 6.114489819175719,
+          "maximum_regret": 4.44613717742568,
+          "mean_regret": 3.0484264462097292
+        },
+        "original": {
+          "weighted_mean": 6.750457903279564,
+          "minimum": 6.133979003255158,
+          "lower_tail_mean": 6.27705760280346,
+          "maximum_regret": 4.336275542199388,
+          "mean_regret": 2.9695473380373616
+        },
+        "previous_broad": {
+          "weighted_mean": 7.144257988443769,
+          "minimum": 6.3018406840732615,
+          "lower_tail_mean": 6.407896370242275,
+          "maximum_regret": 4.088726361381285,
+          "mean_regret": 2.5757472528731555
+        },
+        "previous_search": {
+          "weighted_mean": 8.210446061367712,
+          "minimum": 7.06819479166667,
+          "lower_tail_mean": 7.22725679536804,
+          "maximum_regret": 3.035001518746567,
+          "mean_regret": 1.5095591799492132
+        },
+        "incumbent": {
+          "weighted_mean": 8.330590071614584,
+          "minimum": 7.0397770833333375,
+          "lower_tail_mean": 7.211933829752605,
+          "maximum_regret": 3.2192903209728865,
+          "mean_regret": 1.3894151697023414
+        },
+        "balanced/mean": {
+          "weighted_mean": 9.336321566046285,
+          "minimum": 7.9494372535345885,
+          "lower_tail_mean": 8.49580590071939,
+          "maximum_regret": 1.813362604419952,
+          "mean_regret": 0.38368367527063973
+        },
+        "balanced/tail": {
+          "weighted_mean": 9.167575661399148,
+          "minimum": 8.180805587121213,
+          "lower_tail_mean": 8.472729914624765,
+          "maximum_regret": 1.4471234374999984,
+          "mean_regret": 0.5524295799177767
+        },
+        "balanced/maximin": {
+          "weighted_mean": 9.078085313091858,
+          "minimum": 8.249322774621211,
+          "lower_tail_mean": 8.451031832608313,
+          "maximum_regret": 1.6358072916666675,
+          "mean_regret": 0.6419199282250683
+        },
+        "balanced/minimax_regret": {
+          "weighted_mean": 8.886479345994204,
+          "minimum": 7.822016941034592,
+          "lower_tail_mean": 8.2492966477897,
+          "maximum_regret": 1.2866001044199518,
+          "mean_regret": 0.8335258953227229
+        },
+        "concentration_likely/tail": {
+          "weighted_mean": 9.263908545212953,
+          "minimum": 7.951687253534589,
+          "lower_tail_mean": 8.530776725914702,
+          "maximum_regret": 1.8108313544199524,
+          "mean_regret": 0.4560966961039729
+        },
+        "calculation_likely/mean": {
+          "weighted_mean": 9.342744840785867,
+          "minimum": 7.88221850353459,
+          "lower_tail_mean": 8.478940633792305,
+          "maximum_regret": 1.8870501044199521,
+          "mean_regret": 0.37726040053105636
+        },
+        "calculation_likely/tail": {
+          "weighted_mean": 9.265058915753656,
+          "minimum": 7.90290055898992,
+          "lower_tail_mean": 8.53263523876324,
+          "maximum_regret": 1.8631055489646222,
+          "mean_regret": 0.45494632556326875
+        },
+        "original_likely/mean": {
+          "weighted_mean": 9.301214832652699,
+          "minimum": 8.022022091806218,
+          "lower_tail_mean": 8.413851562986725,
+          "maximum_regret": 1.7393277661483229,
+          "mean_regret": 0.4187904086642259
+        },
+        "T_free_likely/mean": {
+          "weighted_mean": 9.33747193658699,
+          "minimum": 7.90065055898992,
+          "lower_tail_mean": 8.494027769550604,
+          "maximum_regret": 1.8656367989646219,
+          "mean_regret": 0.3825333047299353
+        },
+        "T_free_likely/tail": {
+          "weighted_mean": 9.245121690044982,
+          "minimum": 7.98895871212121,
+          "lower_tail_mean": 8.505474181389086,
+          "maximum_regret": 1.7577265624999985,
+          "mean_regret": 0.47488355127194326
+        },
+        "avoid_fifth_likely/mean": {
+          "weighted_mean": 9.258032589814157,
+          "minimum": 8.047372091806219,
+          "lower_tail_mean": 8.398757784503651,
+          "maximum_regret": 1.7136215161483221,
+          "mean_regret": 0.46197265150276756
+        },
+        "avoid_fifth_likely/guard_0.10": {
+          "weighted_mean": 9.018483268520244,
+          "minimum": 7.93236666666667,
+          "lower_tail_mean": 8.153488891783486,
+          "maximum_regret": 1.8168337966049606,
+          "mean_regret": 0.7015219727966812
+        }
+      },
+      "choices_among_frozen": {
+        "mean": "calculation_likely/mean",
+        "maximin": "balanced/maximin",
+        "tail": "calculation_likely/tail",
+        "minimax_regret": "balanced/minimax_regret",
+        "mean_with_tail_guard": "calculation_likely/mean"
+      }
+    },
+    "original_likely": {
+      "metrics": {
+        "teammate": {
+          "weighted_mean": 6.623317758298319,
+          "minimum": 6.024117368028866,
+          "lower_tail_mean": 6.126354898897046,
+          "maximum_regret": 4.44613717742568,
+          "mean_regret": 3.06052392001397
+        },
+        "original": {
+          "weighted_mean": 6.767567051839086,
+          "minimum": 6.133979003255158,
+          "lower_tail_mean": 6.358008150746507,
+          "maximum_regret": 4.336275542199388,
+          "mean_regret": 2.9162746264732027
+        },
+        "previous_broad": {
+          "weighted_mean": 7.8698905877702625,
+          "minimum": 6.3018406840732615,
+          "lower_tail_mean": 6.624689327285373,
+          "maximum_regret": 4.088726361381285,
+          "mean_regret": 1.8139510905420257
+        },
+        "previous_search": {
+          "weighted_mean": 8.750136613259572,
+          "minimum": 7.06819479166667,
+          "lower_tail_mean": 7.606381553222824,
+          "maximum_regret": 3.035001518746567,
+          "mean_regret": 0.9337050650527168
+        },
+        "incumbent": {
+          "weighted_mean": 8.862888728841146,
+          "minimum": 7.0397770833333375,
+          "lower_tail_mean": 7.622547477213543,
+          "maximum_regret": 3.2192903209728865,
+          "mean_regret": 0.8209529494711438
+        },
+        "balanced/mean": {
+          "weighted_mean": 9.322242746117777,
+          "minimum": 7.9494372535345885,
+          "lower_tail_mean": 8.565220103273267,
+          "maximum_regret": 1.813362604419952,
+          "mean_regret": 0.36159893219451306
+        },
+        "balanced/tail": {
+          "weighted_mean": 9.079329727450283,
+          "minimum": 8.180805587121213,
+          "lower_tail_mean": 8.570931073183004,
+          "maximum_regret": 1.4471234374999984,
+          "mean_regret": 0.604511950862005
+        },
+        "balanced/maximin": {
+          "weighted_mean": 9.018543480705492,
+          "minimum": 8.249322774621211,
+          "lower_tail_mean": 8.510667134232955,
+          "maximum_regret": 1.6358072916666675,
+          "mean_regret": 0.6652981976067964
+        },
+        "balanced/minimax_regret": {
+          "weighted_mean": 8.961749549503192,
+          "minimum": 7.822016941034592,
+          "lower_tail_mean": 8.40613687998482,
+          "maximum_regret": 1.2866001044199518,
+          "mean_regret": 0.7220921288090965
+        },
+        "concentration_likely/tail": {
+          "weighted_mean": 9.287703651065693,
+          "minimum": 7.951687253534589,
+          "lower_tail_mean": 8.563757661510959,
+          "maximum_regret": 1.8108313544199524,
+          "mean_regret": 0.39613802724659625
+        },
+        "calculation_likely/mean": {
+          "weighted_mean": 9.29669004429486,
+          "minimum": 7.88221850353459,
+          "lower_tail_mean": 8.54223047089382,
+          "maximum_regret": 1.8870501044199521,
+          "mean_regret": 0.3871516340174298
+        },
+        "calculation_likely/tail": {
+          "weighted_mean": 9.226935636095769,
+          "minimum": 7.90290055898992,
+          "lower_tail_mean": 8.55527235885478,
+          "maximum_regret": 1.8631055489646222,
+          "mean_regret": 0.4569060422165204
+        },
+        "original_likely/mean": {
+          "weighted_mean": 9.343300314228841,
+          "minimum": 8.022022091806218,
+          "lower_tail_mean": 8.532231372226065,
+          "maximum_regret": 1.7393277661483229,
+          "mean_regret": 0.34054136408344704
+        },
+        "T_free_likely/mean": {
+          "weighted_mean": 9.261474731147853,
+          "minimum": 7.90065055898992,
+          "lower_tail_mean": 8.557385044046937,
+          "maximum_regret": 1.8656367989646219,
+          "mean_regret": 0.42236694716443685
+        },
+        "T_free_likely/tail": {
+          "weighted_mean": 9.119003441642992,
+          "minimum": 7.98895871212121,
+          "lower_tail_mean": 8.529543525464609,
+          "maximum_regret": 1.7577265624999985,
+          "mean_regret": 0.5648382366692967
+        },
+        "avoid_fifth_likely/mean": {
+          "weighted_mean": 9.330367436624673,
+          "minimum": 8.047372091806219,
+          "lower_tail_mean": 8.513603702293288,
+          "maximum_regret": 1.7136215161483221,
+          "mean_regret": 0.35347424168761393
+        },
+        "avoid_fifth_likely/guard_0.10": {
+          "weighted_mean": 9.196369780622984,
+          "minimum": 7.93236666666667,
+          "lower_tail_mean": 8.385270807793265,
+          "maximum_regret": 1.8168337966049606,
+          "mean_regret": 0.48747189768930466
+        }
+      },
+      "choices_among_frozen": {
+        "mean": "original_likely/mean",
+        "maximin": "balanced/maximin",
+        "tail": "balanced/tail",
+        "minimax_regret": "balanced/minimax_regret",
+        "mean_with_tail_guard": "original_likely/mean"
+      }
+    },
+    "T_free_likely": {
+      "metrics": {
+        "teammate": {
+          "weighted_mean": 6.858464616080747,
+          "minimum": 6.024117368028866,
+          "lower_tail_mean": 6.344625029506631,
+          "maximum_regret": 4.44613717742568,
+          "mean_regret": 2.759078701175576
+        },
+        "original": {
+          "weighted_mean": 6.917041997762005,
+          "minimum": 6.133979003255158,
+          "lower_tail_mean": 6.494488271331688,
+          "maximum_regret": 4.336275542199388,
+          "mean_regret": 2.7005013194943177
+        },
+        "previous_broad": {
+          "weighted_mean": 7.225528425275671,
+          "minimum": 6.3018406840732615,
+          "lower_tail_mean": 6.516713722887479,
+          "maximum_regret": 4.088726361381285,
+          "mean_regret": 2.3920148919806508
+        },
+        "previous_search": {
+          "weighted_mean": 8.188426774204718,
+          "minimum": 7.06819479166667,
+          "lower_tail_mean": 7.257891304558255,
+          "maximum_regret": 3.035001518746567,
+          "mean_regret": 1.4291165430516046
+        },
+        "incumbent": {
+          "weighted_mean": 8.30891140950521,
+          "minimum": 7.0397770833333375,
+          "lower_tail_mean": 7.258179687500002,
+          "maximum_regret": 3.2192903209728865,
+          "mean_regret": 1.308631907751113
+        },
+        "balanced/mean": {
+          "weighted_mean": 9.253714431908314,
+          "minimum": 7.9494372535345885,
+          "lower_tail_mean": 8.486843678211283,
+          "maximum_regret": 1.813362604419952,
+          "mean_regret": 0.36382888534800817
+        },
+        "balanced/tail": {
+          "weighted_mean": 9.09280320490057,
+          "minimum": 8.180805587121213,
+          "lower_tail_mean": 8.480452626361272,
+          "maximum_regret": 1.4471234374999984,
+          "mean_regret": 0.5247401123557532
+        },
+        "balanced/maximin": {
+          "weighted_mean": 9.003520473780778,
+          "minimum": 8.249322774621211,
+          "lower_tail_mean": 8.443646520626187,
+          "maximum_regret": 1.6358072916666675,
+          "mean_regret": 0.6140228434755448
+        },
+        "balanced/minimax_regret": {
+          "weighted_mean": 8.875477045840606,
+          "minimum": 7.822016941034592,
+          "lower_tail_mean": 8.34071019236267,
+          "maximum_regret": 1.2866001044199518,
+          "mean_regret": 0.7420662714157163
+        },
+        "concentration_likely/tail": {
+          "weighted_mean": 9.188038471621857,
+          "minimum": 7.951687253534589,
+          "lower_tail_mean": 8.472770638602348,
+          "maximum_regret": 1.8108313544199524,
+          "mean_regret": 0.42950484563446634
+        },
+        "calculation_likely/mean": {
+          "weighted_mean": 9.253876232038523,
+          "minimum": 7.88221850353459,
+          "lower_tail_mean": 8.454985491362326,
+          "maximum_regret": 1.8870501044199521,
+          "mean_regret": 0.3636670852177999
+        },
+        "calculation_likely/tail": {
+          "weighted_mean": 9.198776870194937,
+          "minimum": 7.90290055898992,
+          "lower_tail_mean": 8.468226047748002,
+          "maximum_regret": 1.8631055489646222,
+          "mean_regret": 0.418766447061386
+        },
+        "original_likely/mean": {
+          "weighted_mean": 9.210396831428493,
+          "minimum": 8.022022091806218,
+          "lower_tail_mean": 8.438953404262612,
+          "maximum_regret": 1.7393277661483229,
+          "mean_regret": 0.4071464858278303
+        },
+        "T_free_likely/mean": {
+          "weighted_mean": 9.264452830481396,
+          "minimum": 7.90065055898992,
+          "lower_tail_mean": 8.47954460631078,
+          "maximum_regret": 1.8656367989646219,
+          "mean_regret": 0.3530904867749276
+        },
+        "T_free_likely/tail": {
+          "weighted_mean": 9.160218276515153,
+          "minimum": 7.98895871212121,
+          "lower_tail_mean": 8.488087642415367,
+          "maximum_regret": 1.7577265624999985,
+          "mean_regret": 0.45732504074116986
+        },
+        "avoid_fifth_likely/mean": {
+          "weighted_mean": 9.177632020230575,
+          "minimum": 8.047372091806219,
+          "lower_tail_mean": 8.407462989176823,
+          "maximum_regret": 1.7136215161483221,
+          "mean_regret": 0.439911297025747
+        },
+        "avoid_fifth_likely/guard_0.10": {
+          "weighted_mean": 8.943596349226024,
+          "minimum": 7.93236666666667,
+          "lower_tail_mean": 8.146434471857066,
+          "maximum_regret": 1.8168337966049606,
+          "mean_regret": 0.6739469680302999
+        }
+      },
+      "choices_among_frozen": {
+        "mean": "T_free_likely/mean",
+        "maximin": "balanced/maximin",
+        "tail": "T_free_likely/tail",
+        "minimax_regret": "balanced/minimax_regret",
+        "mean_with_tail_guard": "T_free_likely/mean"
+      }
+    },
+    "avoid_fifth_likely": {
+      "metrics": {
+        "teammate": {
+          "weighted_mean": 6.838263438661883,
+          "minimum": 6.024117368028866,
+          "lower_tail_mean": 6.344733427944131,
+          "maximum_regret": 4.44613717742568,
+          "mean_regret": 2.6782838508097075
+        },
+        "original": {
+          "weighted_mean": 6.91415668257644,
+          "minimum": 6.133979003255158,
+          "lower_tail_mean": 6.498201724914445,
+          "maximum_regret": 4.336275542199388,
+          "mean_regret": 2.6023906068951517
+        },
+        "previous_broad": {
+          "weighted_mean": 7.456183134928144,
+          "minimum": 6.3018406840732615,
+          "lower_tail_mean": 6.624689327285373,
+          "maximum_regret": 4.088726361381285,
+          "mean_regret": 2.0603641545434463
+        },
+        "previous_search": {
+          "weighted_mean": 8.4798267986724,
+          "minimum": 7.06819479166667,
+          "lower_tail_mean": 7.606381553222824,
+          "maximum_regret": 3.035001518746567,
+          "mean_regret": 1.0367204907991914
+        },
+        "incumbent": {
+          "weighted_mean": 8.607896199544271,
+          "minimum": 7.0397770833333375,
+          "lower_tail_mean": 7.622547477213543,
+          "maximum_regret": 3.2192903209728865,
+          "mean_regret": 0.9086510899273195
+        },
+        "balanced/mean": {
+          "weighted_mean": 8.972110067022848,
+          "minimum": 7.9494372535345885,
+          "lower_tail_mean": 8.224016254861365,
+          "maximum_regret": 1.813362604419952,
+          "mean_regret": 0.5444372224487428
+        },
+        "balanced/tail": {
+          "weighted_mean": 8.9215859153054,
+          "minimum": 8.180805587121213,
+          "lower_tail_mean": 8.427244685132576,
+          "maximum_regret": 1.4471234374999984,
+          "mean_regret": 0.5949613741661923
+        },
+        "balanced/maximin": {
+          "weighted_mean": 8.827602158794981,
+          "minimum": 8.249322774621211,
+          "lower_tail_mean": 8.350924714429452,
+          "maximum_regret": 1.6358072916666675,
+          "mean_regret": 0.6889451306766087
+        },
+        "balanced/minimax_regret": {
+          "weighted_mean": 8.810081225877015,
+          "minimum": 7.822016941034592,
+          "lower_tail_mean": 8.281243058922515,
+          "maximum_regret": 1.2866001044199518,
+          "mean_regret": 0.706466063594576
+        },
+        "concentration_likely/tail": {
+          "weighted_mean": 8.944125171189516,
+          "minimum": 7.951687253534589,
+          "lower_tail_mean": 8.222866301110013,
+          "maximum_regret": 1.8108313544199524,
+          "mean_regret": 0.5724221182820759
+        },
+        "calculation_likely/mean": {
+          "weighted_mean": 8.961448576137432,
+          "minimum": 7.88221850353459,
+          "lower_tail_mean": 8.188659024229855,
+          "maximum_regret": 1.8870501044199521,
+          "mean_regret": 0.5550987133341594
+        },
+        "calculation_likely/tail": {
+          "weighted_mean": 8.932996781964594,
+          "minimum": 7.90290055898992,
+          "lower_tail_mean": 8.19944344337873,
+          "maximum_regret": 1.8631055489646222,
+          "mean_regret": 0.5835505075069967
+        },
+        "original_likely/mean": {
+          "weighted_mean": 8.98372840687145,
+          "minimum": 8.022022091806218,
+          "lower_tail_mean": 8.24822113085782,
+          "maximum_regret": 1.7393277661483229,
+          "mean_regret": 0.5328188826001415
+        },
+        "T_free_likely/mean": {
+          "weighted_mean": 8.960981677797928,
+          "minimum": 7.90065055898992,
+          "lower_tail_mean": 8.198270285552422,
+          "maximum_regret": 1.8656367989646219,
+          "mean_regret": 0.5555656116736634
+        },
+        "T_free_likely/tail": {
+          "weighted_mean": 8.868901621685607,
+          "minimum": 7.98895871212121,
+          "lower_tail_mean": 8.209062374230587,
+          "maximum_regret": 1.7577265624999985,
+          "mean_regret": 0.6476456677859841
+        },
+        "avoid_fifth_likely/mean": {
+          "weighted_mean": 9.001226144501658,
+          "minimum": 8.047372091806219,
+          "lower_tail_mean": 8.274087203448964,
+          "maximum_regret": 1.7136215161483221,
+          "mean_regret": 0.5153211449699331
+        },
+        "avoid_fifth_likely/guard_0.10": {
+          "weighted_mean": 8.974895304653057,
+          "minimum": 7.93236666666667,
+          "lower_tail_mean": 8.346886586144114,
+          "maximum_regret": 1.8168337966049606,
+          "mean_regret": 0.5416519848185344
+        }
+      },
+      "choices_among_frozen": {
+        "mean": "avoid_fifth_likely/mean",
+        "maximin": "balanced/maximin",
+        "tail": "balanced/tail",
+        "minimax_regret": "balanced/minimax_regret",
+        "mean_with_tail_guard": "avoid_fifth_likely/mean"
+      }
+    }
+  },
+  "weakest_scenarios": {
+    "teammate": {
+      "minimum": "calculation/raised/narrow/h0.00/three_level",
+      "maximum_regret": "calculation/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        9,
+        12,
+        13,
+        66
+      ]
+    },
+    "original": {
+      "minimum": "calculation/raised/narrow/h0.00/three_level",
+      "maximum_regret": "calculation/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        9,
+        12,
+        13,
+        66
+      ]
+    },
+    "previous_broad": {
+      "minimum": "calculation/raised/narrow/h0.00/four_level",
+      "maximum_regret": "calculation/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        9,
+        12,
+        13,
+        66
+      ]
+    },
+    "previous_search": {
+      "minimum": "T_free/raised/diverse/h0.05/four_level",
+      "maximum_regret": "calculation/raised/narrow/h0.00/four_level",
+      "regret_reference": [
+        4,
+        0,
+        13,
+        14,
+        69
+      ]
+    },
+    "incumbent": {
+      "minimum": "T_free/raised/diverse/h0.05/four_level",
+      "maximum_regret": "calculation/raised/narrow/h0.05/four_level",
+      "regret_reference": [
+        4,
+        0,
+        13,
+        14,
+        69
+      ]
+    },
+    "balanced/mean": {
+      "minimum": "avoid_fifth/raised/narrow/h0.05/three_level",
+      "maximum_regret": "avoid_fifth/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        8,
+        12,
+        63,
+        17
+      ]
+    },
+    "balanced/tail": {
+      "minimum": "concentration/raised/diverse/h0.05/four_level",
+      "maximum_regret": "avoid_fifth/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        8,
+        12,
+        63,
+        17
+      ]
+    },
+    "balanced/maximin": {
+      "minimum": "avoid_fifth/raised/narrow/h0.05/three_level",
+      "maximum_regret": "T_free/low/narrow/h0.00/four_level",
+      "regret_reference": [
+        2,
+        3,
+        15,
+        13,
+        67
+      ]
+    },
+    "balanced/minimax_regret": {
+      "minimum": "concentration/raised/diverse/h0.05/four_level",
+      "maximum_regret": "avoid_fifth/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        8,
+        12,
+        63,
+        17
+      ]
+    },
+    "concentration_likely/tail": {
+      "minimum": "avoid_fifth/raised/narrow/h0.05/three_level",
+      "maximum_regret": "avoid_fifth/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        8,
+        12,
+        63,
+        17
+      ]
+    },
+    "calculation_likely/mean": {
+      "minimum": "avoid_fifth/raised/narrow/h0.05/three_level",
+      "maximum_regret": "avoid_fifth/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        8,
+        12,
+        63,
+        17
+      ]
+    },
+    "calculation_likely/tail": {
+      "minimum": "avoid_fifth/raised/narrow/h0.05/three_level",
+      "maximum_regret": "avoid_fifth/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        8,
+        12,
+        63,
+        17
+      ]
+    },
+    "original_likely/mean": {
+      "minimum": "avoid_fifth/raised/narrow/h0.05/three_level",
+      "maximum_regret": "avoid_fifth/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        8,
+        12,
+        63,
+        17
+      ]
+    },
+    "T_free_likely/mean": {
+      "minimum": "avoid_fifth/raised/narrow/h0.05/three_level",
+      "maximum_regret": "avoid_fifth/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        8,
+        12,
+        63,
+        17
+      ]
+    },
+    "T_free_likely/tail": {
+      "minimum": "avoid_fifth/raised/narrow/h0.05/three_level",
+      "maximum_regret": "avoid_fifth/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        8,
+        12,
+        63,
+        17
+      ]
+    },
+    "avoid_fifth_likely/mean": {
+      "minimum": "avoid_fifth/raised/narrow/h0.05/three_level",
+      "maximum_regret": "avoid_fifth/raised/narrow/h0.00/three_level",
+      "regret_reference": [
+        0,
+        8,
+        12,
+        63,
+        17
+      ]
+    },
+    "avoid_fifth_likely/guard_0.10": {
+      "minimum": "T_free/raised/diverse/h0.05/four_level",
+      "maximum_regret": "calculation/raised/narrow/h0.05/four_level",
+      "regret_reference": [
+        4,
+        0,
+        13,
+        14,
+        69
+      ]
+    }
+  }
+}

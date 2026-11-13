@@ -1,0 +1,92 @@
+{
+  "seed": 20261103,
+  "C_samples_per_profile": 4000,
+  "H_shares": [
+    0,
+    0.05,
+    0.1,
+    0.15
+  ],
+  "styles": {
+    "manual_heavy": {
+      "response_share": 0.25,
+      "depth_weights": [
+        0.7,
+        0.25,
+        0.05
+      ]
+    },
+    "balanced": {
+      "response_share": 0.5,
+      "depth_weights": [
+        0.35,
+        0.45,
+        0.2
+      ]
+    },
+    "computation_heavy": {
+      "response_share": 0.75,
+      "depth_weights": [
+        0.15,
+        0.35,
+        0.5
+      ]
+    }
+  },
+  "near_best_slack": 0.1,
+  "samples_per_belief": 24,
+  "training_advice_fraction_of_S": 0.25,
+  "validation_seeds": {
+    "fresh": 20271103,
+    "shifted": 20281103,
+    "deep": 20291103
+  },
+  "validation_shifts": {
+    "higher_small_bids": {
+      "small_bid_probabilities": [
+        0.02,
+        0.08,
+        0.25,
+        0.4,
+        0.25
+      ]
+    },
+    "rounding_and_avoidance": {
+      "round_five_probability": 0.75,
+      "high_castle_penalty": 0.25,
+      "noise_sigma": 0.35
+    }
+  },
+  "validation_deep_weights": [
+    0.05,
+    0.15,
+    0.3,
+    0.5
+  ],
+  "validation_deep_slack": 0.05,
+  "validation_advice_fraction_of_S": 0.5,
+  "selection_objective": "maximum regret across 40 primary scenarios",
+  "existing_candidates": {
+    "teammate": [
+      2,
+      16,
+      1,
+      37,
+      44
+    ],
+    "previous_eight": [
+      1,
+      2,
+      2,
+      40,
+      55
+    ],
+    "previous_broad": [
+      2,
+      2,
+      3,
+      39,
+      54
+    ]
+  }
+}

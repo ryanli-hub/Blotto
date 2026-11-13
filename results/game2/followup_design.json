@@ -1,0 +1,232 @@
+{
+  "timing": "Added after the first 109 validation results; candidates were not retuned.",
+  "reason": "The all-fifth baseline had the lowest maximum estimated regret; test the same copy and anticipation risks for it.",
+  "arguments": {
+    "seed": 20261104,
+    "population_samples": 3000,
+    "response_screen": 2048,
+    "response_check": 8192,
+    "search_screen": 2048,
+    "search_refine": 8192,
+    "search_calibration": 20000,
+    "test_groups": 200000,
+    "output": "results/game2",
+    "followup_only": true
+  },
+  "stage_seed_entropy": [
+    20261104,
+    2002
+  ],
+  "stage_seeds": [
+    2164956941,
+    1601062402,
+    2144595366
+  ],
+  "stage_seed_order": [
+    "responders",
+    "reference_calibration",
+    "test_games"
+  ],
+  "frozen_candidates": {
+    "teammate": [
+      0,
+      1,
+      36,
+      0,
+      63
+    ],
+    "user": [
+      0,
+      0,
+      49,
+      51,
+      0
+    ],
+    "game1": [
+      8,
+      9,
+      10,
+      11,
+      62
+    ],
+    "previous_compromise": [
+      6,
+      37,
+      50,
+      7,
+      0
+    ],
+    "all_fifth": [
+      0,
+      0,
+      0,
+      0,
+      100
+    ],
+    "castles_4_5": [
+      0,
+      0,
+      0,
+      49,
+      51
+    ],
+    "new_robust": [
+      0,
+      5,
+      0,
+      5,
+      90
+    ],
+    "central_specialist": [
+      13,
+      0,
+      0,
+      0,
+      87
+    ]
+  },
+  "benchmark_pool_size": 30136,
+  "benchmark_pool_definition": "Union of the initial candidate pool, saved finalists, and all saved joint-population support allocations.",
+  "scenarios": {
+    "followup_all_fifth/balanced/same_recommendation": {
+      "source": "stress/balanced/same_recommendation",
+      "base_reconstruction": "(saved population - 0.15 * training-choice point mass) / 0.85",
+      "base_share": 0.85,
+      "extra_share": 0.15,
+      "extra": "same_recommendation",
+      "anticipated_allocation": [
+        0,
+        0,
+        0,
+        0,
+        100
+      ],
+      "response_search": null
+    },
+    "followup_all_fifth/balanced/anticipators": {
+      "source": "stress/balanced/same_recommendation",
+      "base_reconstruction": "(saved population - 0.15 * training-choice point mass) / 0.85",
+      "base_share": 0.85,
+      "extra_share": 0.15,
+      "extra": "anticipators",
+      "anticipated_allocation": [
+        0,
+        0,
+        0,
+        0,
+        100
+      ],
+      "response_search": {
+        "screen_candidates": 30136,
+        "refined_candidates": 300,
+        "screen_groups": 2048,
+        "check_groups": 8192,
+        "best_allocation": [
+          13,
+          31,
+          56,
+          0,
+          0
+        ],
+        "estimated_best_score": 6.8704833984375,
+        "response_support": 1
+      }
+    },
+    "followup_all_fifth/fifth_crowded/same_recommendation": {
+      "source": "stress/fifth_crowded/same_recommendation",
+      "base_reconstruction": "(saved population - 0.15 * training-choice point mass) / 0.85",
+      "base_share": 0.85,
+      "extra_share": 0.15,
+      "extra": "same_recommendation",
+      "anticipated_allocation": [
+        0,
+        0,
+        0,
+        0,
+        100
+      ],
+      "response_search": null
+    },
+    "followup_all_fifth/fifth_crowded/anticipators": {
+      "source": "stress/fifth_crowded/same_recommendation",
+      "base_reconstruction": "(saved population - 0.15 * training-choice point mass) / 0.85",
+      "base_share": 0.85,
+      "extra_share": 0.15,
+      "extra": "anticipators",
+      "anticipated_allocation": [
+        0,
+        0,
+        0,
+        0,
+        100
+      ],
+      "response_search": {
+        "screen_candidates": 30136,
+        "refined_candidates": 328,
+        "screen_groups": 2048,
+        "check_groups": 8192,
+        "best_allocation": [
+          13,
+          6,
+          5,
+          76,
+          0
+        ],
+        "estimated_best_score": 6.87701416015625,
+        "response_support": 12
+      }
+    },
+    "followup_all_fifth/fifth_avoided/same_recommendation": {
+      "source": "stress/fifth_avoided/same_recommendation",
+      "base_reconstruction": "(saved population - 0.15 * training-choice point mass) / 0.85",
+      "base_share": 0.85,
+      "extra_share": 0.15,
+      "extra": "same_recommendation",
+      "anticipated_allocation": [
+        0,
+        0,
+        0,
+        0,
+        100
+      ],
+      "response_search": null
+    },
+    "followup_all_fifth/fifth_avoided/anticipators": {
+      "source": "stress/fifth_avoided/same_recommendation",
+      "base_reconstruction": "(saved population - 0.15 * training-choice point mass) / 0.85",
+      "base_share": 0.85,
+      "extra_share": 0.15,
+      "extra": "anticipators",
+      "anticipated_allocation": [
+        0,
+        0,
+        0,
+        0,
+        100
+      ],
+      "response_search": {
+        "screen_candidates": 30136,
+        "refined_candidates": 351,
+        "screen_groups": 2048,
+        "check_groups": 8192,
+        "best_allocation": [
+          15,
+          28,
+          52,
+          2,
+          3
+        ],
+        "estimated_best_score": 7.204833984375,
+        "response_support": 11
+      }
+    }
+  },
+  "population_index": {
+    "followup_all_fifth/balanced/same_recommendation": "followup_000",
+    "followup_all_fifth/balanced/anticipators": "followup_001",
+    "followup_all_fifth/fifth_crowded/same_recommendation": "followup_002",
+    "followup_all_fifth/fifth_crowded/anticipators": "followup_003",
+    "followup_all_fifth/fifth_avoided/same_recommendation": "followup_004",
+    "followup_all_fifth/fifth_avoided/anticipators": "followup_005"
+  }
+}

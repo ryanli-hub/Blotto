@@ -1,0 +1,298 @@
+{
+  "initial_pool": 24402,
+  "refined_pool": 619,
+  "finalists": 182,
+  "core_scenarios": 90,
+  "tail_mass": 0.2,
+  "tail_tolerance": 0.25,
+  "choices": {
+    "mean": "mean",
+    "maximin": "mean",
+    "tail": "tail",
+    "minimax_regret": "minimax_regret",
+    "mean_with_tail_guard": "mean",
+    "guard_0.00": "tail",
+    "guard_0.10": "mean",
+    "guard_0.25": "mean",
+    "guard_0.50": "mean",
+    "first3_mean": "first3_mean",
+    "first3_guard": "first3_guard",
+    "prior_balanced": "mean",
+    "prior_concentration_likely": "mean",
+    "prior_calculation_likely": "prior_calculation_likely",
+    "prior_fifth_likely": "tail",
+    "prior_first_three_likely": "tail",
+    "prior_original_likely": "prior_original_likely"
+  },
+  "primary_candidate": "mean",
+  "frozen_candidates": {
+    "teammate": [
+      0,
+      1,
+      36,
+      0,
+      63
+    ],
+    "user": [
+      0,
+      0,
+      49,
+      51,
+      0
+    ],
+    "game1": [
+      8,
+      9,
+      10,
+      11,
+      62
+    ],
+    "previous_compromise": [
+      6,
+      37,
+      50,
+      7,
+      0
+    ],
+    "all_fifth": [
+      0,
+      0,
+      0,
+      0,
+      100
+    ],
+    "castles_4_5": [
+      0,
+      0,
+      0,
+      49,
+      51
+    ],
+    "central_specialist": [
+      13,
+      0,
+      0,
+      0,
+      87
+    ],
+    "round1_robust": [
+      0,
+      5,
+      0,
+      5,
+      90
+    ],
+    "round2_robust": [
+      16,
+      17,
+      54,
+      8,
+      5
+    ],
+    "first3_equal": [
+      33,
+      33,
+      34,
+      0,
+      0
+    ],
+    "first3_proportional": [
+      17,
+      33,
+      50,
+      0,
+      0
+    ],
+    "first3_third_heavy": [
+      15,
+      30,
+      55,
+      0,
+      0
+    ],
+    "mean": [
+      10,
+      14,
+      60,
+      5,
+      11
+    ],
+    "tail": [
+      10,
+      14,
+      60,
+      6,
+      10
+    ],
+    "minimax_regret": [
+      8,
+      15,
+      62,
+      5,
+      10
+    ],
+    "first3_mean": [
+      8,
+      36,
+      56,
+      0,
+      0
+    ],
+    "first3_guard": [
+      1,
+      43,
+      56,
+      0,
+      0
+    ],
+    "prior_calculation_likely": [
+      10,
+      15,
+      59,
+      6,
+      10
+    ],
+    "prior_original_likely": [
+      10,
+      15,
+      59,
+      5,
+      11
+    ]
+  },
+  "training_metrics": {
+    "teammate": {
+      "weighted_mean": 3.5462496093750007,
+      "minimum": 2.7771625,
+      "lower_tail_mean": 2.903986328125,
+      "maximum_regret": 3.6525125000000003,
+      "mean_regret": 2.589369453125
+    },
+    "user": {
+      "weighted_mean": 2.7966585156250003,
+      "minimum": 2.096575,
+      "lower_tail_mean": 2.2067335937499992,
+      "maximum_regret": 4.7956,
+      "mean_regret": 3.3389605468749997
+    },
+    "game1": {
+      "weighted_mean": 4.1147503125,
+      "minimum": 3.290075,
+      "lower_tail_mean": 3.5829796874999995,
+      "maximum_regret": 3.2616750000000003,
+      "mean_regret": 2.02086875
+    },
+    "previous_compromise": {
+      "weighted_mean": 4.756431406249999,
+      "minimum": 2.9523,
+      "lower_tail_mean": 3.80920234375,
+      "maximum_regret": 3.939875,
+      "mean_regret": 1.37918765625
+    },
+    "all_fifth": {
+      "weighted_mean": 4.3965884375,
+      "minimum": 3.555525,
+      "lower_tail_mean": 3.6485699218749987,
+      "maximum_regret": 3.0606875000000002,
+      "mean_regret": 1.7390306250000003
+    },
+    "castles_4_5": {
+      "weighted_mean": 2.7502876562500003,
+      "minimum": 2.11565,
+      "lower_tail_mean": 2.1847531249999994,
+      "maximum_regret": 4.497625000000001,
+      "mean_regret": 3.3853314062499997
+    },
+    "central_specialist": {
+      "weighted_mean": 4.288017968749999,
+      "minimum": 3.08635,
+      "lower_tail_mean": 3.3349843749999994,
+      "maximum_regret": 3.3700000000000006,
+      "mean_regret": 1.8476010937499998
+    },
+    "round1_robust": {
+      "weighted_mean": 4.594834531249999,
+      "minimum": 3.500275,
+      "lower_tail_mean": 3.7612664062499994,
+      "maximum_regret": 3.0857000000000006,
+      "mean_regret": 1.5407845312500004
+    },
+    "round2_robust": {
+      "weighted_mean": 5.0777279687500005,
+      "minimum": 3.75835,
+      "lower_tail_mean": 4.185803906249999,
+      "maximum_regret": 2.6087,
+      "mean_regret": 1.05789109375
+    },
+    "first3_equal": {
+      "weighted_mean": 2.862679453125,
+      "minimum": 1.6237125,
+      "lower_tail_mean": 2.0640449218749994,
+      "maximum_regret": 5.2684625,
+      "mean_regret": 3.2729396093750003
+    },
+    "first3_proportional": {
+      "weighted_mean": 4.3374390625,
+      "minimum": 2.366875,
+      "lower_tail_mean": 2.991201171875,
+      "maximum_regret": 4.5253,
+      "mean_regret": 1.79818
+    },
+    "first3_third_heavy": {
+      "weighted_mean": 4.6491871875,
+      "minimum": 2.821675,
+      "lower_tail_mean": 3.3532937499999993,
+      "maximum_regret": 4.0705,
+      "mean_regret": 1.486431875
+    },
+    "mean": {
+      "weighted_mean": 5.83674375,
+      "minimum": 5.144225,
+      "lower_tail_mean": 5.342919531249999,
+      "maximum_regret": 1.0420749999999996,
+      "mean_regret": 0.2988753125
+    },
+    "tail": {
+      "weighted_mean": 5.82844953125,
+      "minimum": 5.055425,
+      "lower_tail_mean": 5.355928906249998,
+      "maximum_regret": 1.036925,
+      "mean_regret": 0.30716953125
+    },
+    "minimax_regret": {
+      "weighted_mean": 5.75897984375,
+      "minimum": 5.01425,
+      "lower_tail_mean": 5.274403906249999,
+      "maximum_regret": 0.9775499999999999,
+      "mean_regret": 0.37663921875000006
+    },
+    "first3_mean": {
+      "weighted_mean": 5.042022187500001,
+      "minimum": 3.404125,
+      "lower_tail_mean": 3.9537664062499998,
+      "maximum_regret": 3.48805,
+      "mean_regret": 1.0935968750000002
+    },
+    "first3_guard": {
+      "weighted_mean": 4.88734203125,
+      "minimum": 3.9102,
+      "lower_tail_mean": 4.4752624999999995,
+      "maximum_regret": 2.49735,
+      "mean_regret": 1.2482770312499998
+    },
+    "prior_calculation_likely": {
+      "weighted_mean": 5.8255996875000005,
+      "minimum": 5.032325,
+      "lower_tail_mean": 5.332784374999999,
+      "maximum_regret": 1.0779249999999996,
+      "mean_regret": 0.3100193749999999
+    },
+    "prior_original_likely": {
+      "weighted_mean": 5.83515265625,
+      "minimum": 5.12105,
+      "lower_tail_mean": 5.319226562499999,
+      "maximum_regret": 1.08575,
+      "mean_regret": 0.30046640625
+    }
+  }
+}
